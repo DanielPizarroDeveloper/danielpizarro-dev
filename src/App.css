@@ -1,0 +1,23 @@
+:root {
+  --custom-font-family: monospace, sans-serif;
+  --custom-font-optical-sizing: auto;
+  --custom-font-weight: 100;
+  --custom-font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span {
+  font-family: var(--custom-font-family);
+  font-optical-sizing: var(--custom-font-optical-sizing);
+  font-weight: var(--custom-font-weight);
+  font-style: var(--custom-font-style);
+}
