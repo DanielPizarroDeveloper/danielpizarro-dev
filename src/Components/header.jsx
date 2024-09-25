@@ -17,7 +17,7 @@ export function HeaderPage() {
                   <button style={{color: 'white', backgroundColor: 'black', border: '1px solid black', borderRadius: '50px', width: '200px', height: '50px'}}><span style={{fontSize: '15px'}}>Contactame</span></button>
               </div>
   
-              <div style={{display: 'flex', justifyContent: 'center', gap: '10px', marginTop: '2%'}}>
+              <div style={{display: 'flex', justifyContent: 'center', gap: '10px', paddingTop: '10%'}}>
                   <button style={{border: '0', backgroundColor: 'transparent'}} aria-label='Boton Linkedin'>
                       <a href="https://www.linkedin.com/in/daniel-pizarro-saavedra/" target="_blank" aria-label='Abrir el perfil de linkedin del programador'>
                         <svg style={{width: '30px'}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">

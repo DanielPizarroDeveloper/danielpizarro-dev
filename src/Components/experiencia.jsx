@@ -1,6 +1,6 @@
 export function Experiencia() {
     return (
-        <section id="experiencia" style={{paddingTop: '5%', display: 'flex', flexDirection: 'column', marginBottom: '10%', backgroundColor: '#f4f4f5', height: '500px'}}>
+        <section id="experiencia" style={{paddingTop: '5%', display: 'flex', flexDirection: 'column', backgroundColor: '#f4f4f5', height: '500px'}}>
             <div style={{display: 'flex', justifyContent: 'start', marginLeft: '10%', alignItems: 'baseline', gap: '10px'}}>
                 <h1 style={{textAlign: 'center', color: 'black'}}>Experiencia</h1>
             </div>
@@ -8,10 +8,11 @@ export function Experiencia() {
             <div style={{display: 'flex', flexDirection: 'row', gap: '100px', justifyContent: 'center'}}>
                 <article>
                     <div style={{backgroundColor: '#f4f4f5', position: 'relative', top: '25px', left:'235px', border: '1px solid black', width: '50px', height: '50px', borderRadius: '100px'}}>
-                        <svg style={{position: 'relative', top:'10px', left: '10px', width: '30px'}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path fill="#000000" d="M184 48l144 0c4.4 0 8 3.6 8 8l0 40L176 96l0-40c0-4.4 3.6-8 8-8zm-56 8l0 40L64 96C28.7 96 0 124.7 0 160l0 96 192 0 128 0 192 0 0-96c0-35.3-28.7-64-64-64l-64 0 0-40c0-30.9-25.1-56-56-56L184 0c-30.9 0-56 25.1-56 56zM512 288l-192 0 0 32c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-32L0 288 0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-128z"/>
+                        <svg style={{position: 'relative', top:'10px', left: '10px', width: '30px'}} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z" />
                         </svg>
                     </div>
+
                     <div style={{height: '250px', borderRadius: '15px', border: '1px solid black', padding: '10px', textAlign: 'center', width: '500px'}}>
                         <div style={{marginTop: '40px', lineHeight: '1px'}}>
                             <h4 style={{color: '#4b5563'}}>Desarrollador Freelance</h4>
@@ -29,10 +30,11 @@ export function Experiencia() {
 
                 <article>
                     <div style={{backgroundColor: '#f4f4f5', position: 'relative', top: '25px', left:'235px', border: '1px solid black', width: '50px', height: '50px', borderRadius: '100px'}}>
-                        <svg style={{position: 'relative', top:'10px', left: '10px', width: '30px'}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path fill="#000000" d="M184 48l144 0c4.4 0 8 3.6 8 8l0 40L176 96l0-40c0-4.4 3.6-8 8-8zm-56 8l0 40L64 96C28.7 96 0 124.7 0 160l0 96 192 0 128 0 192 0 0-96c0-35.3-28.7-64-64-64l-64 0 0-40c0-30.9-25.1-56-56-56L184 0c-30.9 0-56 25.1-56 56zM512 288l-192 0 0 32c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-32L0 288 0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-128z"/>
+                        <svg style={{position: 'relative', top:'10px', left: '10px', width: '30px'}} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z" />
                         </svg>
                     </div>
+                    
                     <div style={{height: '250px', borderRadius: '15px', border: '1px solid black', padding: '10px', textAlign: 'center', width: '500px'}}>
                         <div style={{marginTop: '40px', lineHeight: '1px'}}>
                             <h4 style={{color: '#4b5563'}}>Desarrollador & Analista de datos</h4>
