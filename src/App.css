@@ -5,6 +5,10 @@
   --custom-font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
@@ -15,6 +19,7 @@ h3,
 h4,
 h5,
 p,
+a,
 span {
   font-family: var(--custom-font-family);
   font-optical-sizing: var(--custom-font-optical-sizing);
