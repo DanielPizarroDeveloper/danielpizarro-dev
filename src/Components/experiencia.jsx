@@ -15,14 +15,14 @@ export function Experiencia() {
 
                     <div style={{height: '250px', borderRadius: '15px', border: '1px solid black', padding: '10px', textAlign: 'center', width: '500px'}}>
                         <div style={{marginTop: '40px', lineHeight: '1px'}}>
-                            <h4 style={{color: '#4b5563'}}>Desarrollador Freelance</h4>
-                            <h5 style={{color: '#4b5563'}}>Cliente: Ingenieria & Construcción Sigdo Koppers</h5>
-                            <h5 style={{color: '#4b5563'}}>2023 - Actualmente</h5>
+                            <h4>Desarrollador Freelance</h4>
+                            <h5>Cliente: Ingenieria & Construcción Sigdo Koppers</h5>
+                            <h5>2023 - Actualmente</h5>
                         </div>
-                        <p style={{fontSize: 'small', textAlign: 'left', color: '#525252'}}>
+                        <p style={{fontSize: 'small', textAlign: 'left'}}>
                             Actualmente, estoy trabajando en algunos proyectos de automatización RPA con UiPath Studio y C# para la ingenieria & construcción Sigdo Koppers.
                         </p>
-                        <p style={{fontSize: 'small', textAlign: 'left', color: '#525252'}}>
+                        <p style={{fontSize: 'small', textAlign: 'left'}}>
                             Con la cual se han implementado algunos proyectos además de realización de soporte de los mismos proyctos.
                         </p>
                     </div>
@@ -37,14 +37,14 @@ export function Experiencia() {
                     
                     <div style={{height: '250px', borderRadius: '15px', border: '1px solid black', padding: '10px', textAlign: 'center', width: '500px'}}>
                         <div style={{marginTop: '40px', lineHeight: '1px'}}>
-                            <h4 style={{color: '#4b5563'}}>Desarrollador & Analista de datos</h4>
-                            <h5 style={{color: '#4b5563'}}>Ingenieria & Construcción Sigdo Koppers</h5>
-                            <h5 style={{color: '#4b5563'}}>Enero, 2018 - Abril, 2023</h5>
+                            <h4>Desarrollador & Analista de datos</h4>
+                            <h5>Ingenieria & Construcción Sigdo Koppers</h5>
+                            <h5>Enero, 2018 - Abril, 2023</h5>
                         </div>
-                        <p style={{fontSize: 'small', textAlign: 'left', color: '#525252'}}>
+                        <p style={{fontSize: 'small', textAlign: 'left'}}>
                             He trabajado en el desarrollo de soluciones web para proyectos internos de la empresa utilizando lenguajes como ASP.NET, ASP.NET Core y Azure Functions además de implementaciones de modelos de datos en SQL Server. Además, he desarrollado soluciones de automatización RPA con UiPath Studio.
                         </p>
-                        <p style={{fontSize: 'small', textAlign: 'left', color: '#525252'}}>
+                        <p style={{fontSize: 'small', textAlign: 'left'}}>
                             Además, he desarrollado soluciones de automatización RPA con UiPath Studio.
                         </p>
                     </div>

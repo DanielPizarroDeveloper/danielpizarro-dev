@@ -1,3 +1,5 @@
+import { Badge } from 'evergreen-ui'
+
 export function HeaderPage() {
     return (
       <section id="header" style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', paddingTop: '12%', paddingBottom: '5%'}}>
@@ -6,11 +8,18 @@ export function HeaderPage() {
           </article>
   
           <article style={{display: 'flex', flexDirection: 'column'}}>
-              <div style={{display: 'flex', flexDirection: 'column', lineHeight: '5px', textAlign: 'center'}}>
-                  <h1>Hola,</h1>
-                  <h2>Soy Daniel Pizarro Saavedra</h2>
-                  <h3>Ingeniero Informático</h3>
-              </div>
+                <div style={{display: 'flex', flexDirection: 'column', lineHeight: '5px', textAlign: 'center'}}>
+                      <h1 style={{color: '#4b5563'}}>Hola,</h1>
+                      <h2 style={{color: '#4b5563'}}>Soy Daniel Pizarro Saavedra</h2>
+                      <h3 style={{color: '#4b5563'}}>Ingeniero Informático</h3>
+                </div>
+                
+                <div style={{display: 'flex', justifyContent: 'center'}}>
+                    <Badge color="green">
+                        Abierto a nuevas oportunidades laborales.
+                    </Badge>
+                </div>
+                
   
               <div style={{display: 'flex', justifyContent: 'center', gap:'10px', marginTop: '5%'}}>
                   <button style={{color: 'white', backgroundColor: 'black', border: '1px solid black', borderRadius: '50px', width: '200px', height: '50px'}}><span style={{fontSize: '15px'}}>Descargar Curriculum</span></button>

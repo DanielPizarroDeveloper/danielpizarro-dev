@@ -3,6 +3,7 @@ import { NavPage } from './Components/nav'
 import { Experiencia } from './Components/experiencia'
 import { Skills } from './Components/skills'
 import { SobreMi } from './Components/sobreMi'
+import { Footer } from './Components/footer'
 
 import './App.css'
 
@@ -14,6 +15,7 @@ function App() {
       <Experiencia />
       <Skills />
       <SobreMi />
+      <Footer />
     </>
   )
 }

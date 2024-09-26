@@ -15,7 +15,7 @@ export function NavPage() {
                     </li>
                     <li style={{color: 'white', fontWeight: '300', listStyle: 'none'}}><a href="#experiencia" style={{textDecoration: 'none', color: 'white'}}><span>Experiencia</span></a></li>
                     <li style={{color: 'white', fontWeight: '300', listStyle: 'none'}}><a href="#programacion" style={{textDecoration: 'none', color: 'white'}}><span>Lenguajes programación</span></a></li>
-                    <li style={{color: 'white', fontWeight: '300', listStyle: 'none'}}><a href="#" style={{textDecoration: 'none', color: 'white'}}><span>Sobre mí</span></a></li>
+                    <li style={{color: 'white', fontWeight: '300', listStyle: 'none'}}><a href="#about" style={{textDecoration: 'none', color: 'white'}}><span>Sobre mí</span></a></li>
                 </ul>
             </nav>
         </section>
