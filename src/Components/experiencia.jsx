@@ -1,4 +1,5 @@
 import experienciaList from '../mocks/experiencia/laboral.json'
+import '../css/experiencia.css'
 
 export function Experiencia() {
     const experiencia = experienciaList;
