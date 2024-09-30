@@ -3,3 +3,69 @@
     --custom-exp-color-white: #fff;
     --custom-exp-color-gray: #f4f4f5;
 }
+
+.main-section-exp {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    background-color: var(--custom-exp-color-gray);
+    height: 500px;
+}
+
+.main-section-exp__titulo {
+    display: flex;
+    justify-content: start;
+    margin-left: 10%;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.main-section-exp__titulo__h1 {
+    text-align: center;
+    color: var(--custom-exp-color-black);
+}
+
+.main-section-exp__experiencia {
+    display: grid;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 10%;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.main-section-exp__experiencia__article__icon {
+    background-color: var(--custom-exp-color-gray);
+    position: relative;
+    top: 25px;
+    left: 235px;
+    border: 1px solid var(--custom-exp-color-black);
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.main-section-exp__experiencia__article__icon__svg {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+}
+
+.main-section-exp__experiencia__article__informacion {
+    height: 250px;
+    border-radius: 15px;
+    border: 1px solid var(--custom-exp-color-black);
+    padding: 10px;
+    text-align: center;
+    width: 500px;
+}
+
+.main-section-exp__experiencia__article__informacion__puesto-Trabajo {
+    margin-top: 40px;
+    line-height: 1px;
+}
+
+.main-section-exp__experiencia__article__informacion__parrafo {
+    font-size: small; 
+    text-align: left;
+}
