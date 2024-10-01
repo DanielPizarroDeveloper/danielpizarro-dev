@@ -19,11 +19,7 @@
 }
 
 .main-section-aboutMe-container {
-    display: grid;
-    justify-content: center;
-    /* padding-left: 15%; */
-    padding-right: 15%;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    display: flex;
+    gap: 100px;
+    padding-left: 5%;
 }
-
-/*  */

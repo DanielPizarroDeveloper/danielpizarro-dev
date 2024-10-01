@@ -8,12 +8,12 @@ export function AboutMe() {
             </div>
 
             <div className='main-section-aboutMe-container'>
-                <article style={{paddingTop: '2.5%', display: 'grid', justifySelf: 'center', alignItems: 'center'}}> {/* paddingLeft: '5%' */}
+                <article style={{paddingTop: '2.5%', display: 'flex', justifyContent: 'center', paddingLeft: '10%', alignItems: 'center'}}>
                     <img style={{width: '250px', borderRadius: '900px', border: '2px solid black'}} src="img/Avatar.jpg" alt="" />
                 </article>
 
-                <article style={{paddingTop: '0%'}}>
-                    <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'start', width: '800px'}}>
+                <article>
+                    <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'start', width: '700px'}}>
                         <div style={{marginTop: '40px', lineHeight: '5px'}}>
                                 <h4>Me presento, me llamo Daniel Pizarro Saavedra</h4>
                         </div>

@@ -8,6 +8,8 @@
     display: flex;
     flex-direction: column;
     padding-top: 5%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
     background-color: var(--custom-exp-color-gray);
     height: 500px;
 }
@@ -28,19 +30,24 @@
 .main-section-exp__experiencia {
     display: grid;
     justify-content: center;
-    padding-left: 15%;
-    padding-right: 10%;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+}
+
+.main-section-exp__article {
+    display: flex;
+    padding-top: 5%;
 }
 
 .main-section-exp__experiencia__article__icon {
     background-color: var(--custom-exp-color-gray);
     position: relative;
-    top: 25px;
-    left: 235px;
+    top: -25px;
+    left: 47%;
     border: 1px solid var(--custom-exp-color-black);
     width: 50px;
+    min-width: 50px;
     height: 50px;
+    min-height: 50px;
     border-radius: 100px;
 }
 
@@ -57,7 +64,7 @@
     border: 1px solid var(--custom-exp-color-black);
     padding: 10px;
     text-align: center;
-    width: 500px;
+    width: 600px;
 }
 
 .main-section-exp__experiencia__article__informacion__puesto-Trabajo {
@@ -68,4 +75,24 @@
 .main-section-exp__experiencia__article__informacion__parrafo {
     font-size: small; 
     text-align: left;
+}
+
+@media screen and (max-width: 1052px) {
+    .main-section-exp {
+        height: 700px;
+    }
+    
+    .main-section-exp__article {
+        display: flex;
+        justify-content: center;
+        min-width: 999px;
+    }
+
+    .main-section-exp__experiencia__article__icon {
+        left: 34%;
+    }
+
+    .main-section-exp__experiencia__article__informacion {
+        height: 210px;
+    }
 }
