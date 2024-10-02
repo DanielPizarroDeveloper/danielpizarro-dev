@@ -1,0 +1,8 @@
+:root {
+    --custom-footer-color-black: #000;
+}
+
+footer {
+    height: 225px;
+    background-color: var(--custom-footer-color-black);
+}

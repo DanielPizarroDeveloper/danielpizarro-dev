@@ -1,5 +1,5 @@
-import { HeaderPage } from './Components/header'
 import { NavPage } from './Components/nav'
+import { HeaderPage } from './Components/header'
 import { Experiencia } from './Components/experiencia'
 import { Skills } from './Components/skills'
 import { AboutMe } from './Components/aboutMe'
@@ -21,4 +21,3 @@ function App() {
 }
 
 export default App
-

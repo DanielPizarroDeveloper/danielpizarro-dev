@@ -6,12 +6,13 @@
 
 .main-section-exp {
     display: flex;
+    position: relative;
     flex-direction: column;
-    padding-top: 5%;
+    top: 180px;
     padding-right: 2.5%;
     padding-left: 2.5%;
     background-color: var(--custom-exp-color-gray);
-    height: 500px;
+    height: 450px;
 }
 
 .main-section-exp__titulo {
@@ -77,22 +78,15 @@
     text-align: left;
 }
 
-@media screen and (max-width: 1052px) {
+@media screen and (max-width: 1200px) {
     .main-section-exp {
-        height: 700px;
-    }
-    
-    .main-section-exp__article {
-        display: flex;
-        justify-content: center;
-        min-width: 999px;
+        max-width: 1100px;
+        padding: 0;
+        height: 420px;
     }
 
-    .main-section-exp__experiencia__article__icon {
-        left: 34%;
-    }
-
-    .main-section-exp__experiencia__article__informacion {
-        height: 210px;
+    .main-section-exp__experiencia {
+        padding-left: 2%;
+        padding-right: 2%;
     }
 }
