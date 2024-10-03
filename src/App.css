@@ -6,6 +6,12 @@
   --custom-section-min-width: 1200px
 }
 
+* {
+  box-sizing: border-box;
+  /* background-color: blue; */
+}
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -33,4 +39,10 @@ span {
   font-optical-sizing: var(--custom-font-optical-sizing);
   font-weight: var(--custom-font-weight);
   font-style: var(--custom-font-style);
+}
+
+@media screen and (max-width: 1382px) {
+  body {
+    width: max-content;
+  }
 }
