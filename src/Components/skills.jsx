@@ -25,8 +25,8 @@ export function Skills() {
                     </div>
 
                     <div className='main-section-skill__container__columns__skill'>
-                        <div className='main-section-skill-container__columns__skill__titulo'>
-                            <h4 className='main-section-skill-container__columns__skill__titulo__h4'>Frontend</h4>
+                        <div className='main-section-skill__container__columns__skill__titulo__div_frontend'>
+                            <h4 className='main-section-skill__container__columns__skill__titulo__div__frontend-h4'>Frontend</h4>
                         </div>
 
                         <div className='main-section-skill__container__columns__skill__frontend'>
@@ -55,9 +55,7 @@ export function Skills() {
                     </div>
                         
                     <div className='main-section-skill__container__columns__skill'>
-                        <div>
-                            <h4 className='main-section-skill-container__columns__skill__titulo__h4'>Backend</h4>
-                        </div>
+                        <h4 className='main-section-skill__container__columns__skill__titulo__div__backend-h4'>Backend</h4>
                         
                         <div className='main-section-skill__container__columns__skill__backend'>
                             {
@@ -88,8 +86,8 @@ export function Skills() {
                     </div>
                         
                     <div className='main-section-skill__container__columns__skill'>
-                        <div>
-                            <h4 className='main-section-skill-container__columns__skill__titulo__h4'>Base de datos</h4>
+                        <div className='main-section-skill__container__columns__skill__titulo__div_database'>
+                            <h4 className='main-section-skill__container__columns__skill__titulo__div__database-h4'>Base de datos</h4>
                         </div>
                         
                         <div className='main-section-skill__container__columns__skill__database'>

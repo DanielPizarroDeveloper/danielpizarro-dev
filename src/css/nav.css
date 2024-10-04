@@ -63,3 +63,12 @@
     color: var(--custom-nav-color-white);
     font-size: medium;
 }
+
+/* @media screen and (max-width: 960px) {
+    .main-section__nav__list {
+        display: none;
+        flex-direction: row;
+        list-style: none;
+        background-color: red;
+    }
+} */

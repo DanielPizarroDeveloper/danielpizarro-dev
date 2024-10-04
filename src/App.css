@@ -3,12 +3,12 @@
   --custom-font-optical-sizing: auto;
   --custom-font-weight: 100;
   --custom-font-style: normal;
-  --custom-section-min-width: 1200px
+  /* --custom-section-min-width: 1200px; */
+  --custom-section-min-width: 100%;
 }
 
 * {
   box-sizing: border-box;
-  /* background-color: blue; */
 }
 
 
@@ -41,8 +41,8 @@ span {
   font-style: var(--custom-font-style);
 }
 
-@media screen and (max-width: 1382px) {
+/* @media screen and (max-width: 1382px) {
   body {
     width: max-content;
   }
-}
+} */

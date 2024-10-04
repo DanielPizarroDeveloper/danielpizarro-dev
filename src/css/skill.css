@@ -6,7 +6,7 @@
 
 .main-section-skill {
     position: relative;
-    top: 180px;
+    padding-top: 5%;
     display: flex;
     flex-direction: column;
     height: 560px;
@@ -17,7 +17,6 @@
     justify-content: start;
     margin-left: 10%;
     align-items: baseline;
-    gap: 10px;
 }
 
 .main-section-skill__titulo {
@@ -42,7 +41,7 @@
     background-color: var(--custom-skill-color-white);
     position: relative;
     top: 25px;
-    left: 110px;
+    left: 100px;
     border: 1px solid var(--custom-skill-color-black);
     width: 50px;
     height: 50px;
@@ -57,7 +56,7 @@
 }
 
 .main-section-skill__container__columns__skill {
-    height: 350px;
+    height: 355px;
     border-radius: 15px;
     border: 1px solid var(--custom-skill-color-black);
     padding: 10px;
@@ -65,20 +64,23 @@
     width: 240px;
 }
 
-.main-section-skill-container__columns__skill__titulo {
-    padding-top: 20px;
+.main-section-skill__container__columns__skill__titulo {
+    padding-top: 9px;
     line-height: 1px;
 }
 
-.main-section-skill-container__columns__skill__titulo__h4 {
+.main-section-skill__container__columns__skill__titulo__div__frontend-h4,
+.main-section-skill__container__columns__skill__titulo__div__backend-h4,
+.main-section-skill__container__columns__skill__titulo__div__database-h4 {
     color: var(--custom-skill-color-gray);   
 }
 
 .main-section-skill__container__columns__skill__frontend {
+    padding-top: 4%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 30px;
+    gap: 25px;
 }
 
 .main-section-skill__container__columns__skill__content {
@@ -128,7 +130,7 @@
 .main-section-skill__container__columns__skill__content__detalle_backend {
     padding-left: 15%;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
 }
 
 .main-section-skill__container__columns__skill__database {
@@ -144,8 +146,97 @@
     align-items: center;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
     .main-section-skill {
-        height: 540px;
+        height: 470px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .main-section-skill__container__columns {
+        flex-direction: column;
+    }
+
+    .main-section-skill__container__columns__logo {
+        top: 80px;
+        left: -25px;
+    }
+
+    .main-section-skill__container__columns__skill {
+        width: 1000px;
+        height: 100px;
+    }
+
+    /* Div Título Frontend */
+    .main-section-skill__container__columns__skill__titulo__div_frontend {
+        position: relative;
+        top: -60px;
+        left: 40px;
+        font-size: 22px;
+    }
+
+    .main-section-skill__container__columns__skill__titulo__div__backend-h4  {
+        position: relative;
+        top: -60px;
+        left: 35px;
+        font-size: 22px;
+    }
+
+    .main-section-skill__container__columns__skill__titulo__div_database {
+        position: relative;
+        top: -55px;
+        left: 34px;
+        font-size: 22px;
+    }
+
+    /* Título Frontend */
+    .main-section-skill__container__columns__skill__titulo__div_frontend > h4 {
+        background-color: white;
+        line-height: 40px;
+        width: 125px;
+        height: 40px;
+    }
+
+    /* Título Backend */
+    .main-section-skill__container__columns__skill > h4 {
+        background-color: white;
+        line-height: 40px;
+        width: 125px;
+        height: 40px;
+    }
+
+    /* Título Database */
+    .main-section-skill__container__columns__skill__titulo__div__database-h4 {
+        background-color: white;
+        width: 200px;
+        height: 40px;
+    }
+
+    .main-section-skill__container__columns__skill__backend {
+        flex-direction: row;
+        position: relative;
+        top: -80px;
+    }
+
+    .main-section-skill__container__columns__skill__content__svg,
+    .main-section-skill__container__columns__skill__content__backend__svg,
+    .main-section-skill__container__columns__skill__content__svg {
+        width: 100px;
+    }   
+
+    .main-section-skill__container__columns__skill__frontend {
+        padding-top: 0;
+        position: relative;
+        bottom: 80px;
+        flex-direction: row;
+        gap: 50px;
+        align-items: flex-start;
+    }
+
+    .main-section-skill__container__columns__skill__database {
+        position: relative;
+        gap: 140px;
+        flex-direction: row;
+        bottom: 80px;
     }
 }
