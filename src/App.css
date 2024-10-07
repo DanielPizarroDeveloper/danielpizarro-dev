@@ -3,7 +3,6 @@
   --custom-font-optical-sizing: auto;
   --custom-font-weight: 100;
   --custom-font-style: normal;
-  /* --custom-section-min-width: 1200px; */
   --custom-section-min-width: 100%;
 }
 
@@ -40,9 +39,3 @@ span {
   font-weight: var(--custom-font-weight);
   font-style: var(--custom-font-style);
 }
-
-/* @media screen and (max-width: 1382px) {
-  body {
-    width: max-content;
-  }
-} */

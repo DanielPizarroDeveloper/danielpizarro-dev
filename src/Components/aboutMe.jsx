@@ -4,7 +4,7 @@ export function AboutMe() {
     return (
         <section id='about' className='main-section-aboutMe'>
             <div className='main-section-aboutMe__titulo'>
-                <h1 style={{textAlign: 'center', color: 'black'}}>Sobre mí</h1>
+                <h1 className='main-section-aboutMe__titulo_h1'>Sobre mí</h1>
             </div>
 
             <div className='main-section-aboutMe-container'>

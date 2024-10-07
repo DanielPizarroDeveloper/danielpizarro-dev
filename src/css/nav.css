@@ -7,14 +7,14 @@
 .main-section {
     display: flex;
     position: fixed;
-    z-index: 100; 
-    width: 100%; 
-    top: 0px; 
-    flex-direction: row; 
-    justify-content: center; 
-    gap: 50px; 
-    background-color: var(--custom-nav-color-black); 
-    height: 70px 
+    z-index: 100;
+    width: 100%;
+    top: 0px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    background-color: var(--custom-nav-color-black);
+    height: 70px;
 }
 
 .main-section__nav {
@@ -64,11 +64,54 @@
     font-size: medium;
 }
 
-/* @media screen and (max-width: 960px) {
+.main-section__nav__list__hamburguesa {
+    display: none;
+}
+
+/* Orientación Portrait (Vertical) */
+@media screen and (orientation: portrait) and (max-width: 360px) {
     .main-section__nav__list {
-        display: none;
-        flex-direction: row;
         list-style: none;
-        background-color: red;
+        position: relative;
+        padding: 5%;
+        gap: 100px;
     }
-} */
+
+    .main-section__nav__list__option {
+        display: none;
+    }
+
+    .main-section__nav__list__hamburguesa {
+        display: block;
+    }
+}
+
+@media screen and (orientation: portrait) and (min-width: 384px) {
+    .main-section__nav__list {
+        list-style: none;
+        position: relative;
+        padding: 5%;
+        gap: 100px;
+    }
+
+    .main-section__nav__list__option {
+        display: none;
+    }
+
+    .main-section__nav__list__hamburguesa {
+        display: block;
+    }
+}
+
+/* Orientación Landscape (Horizontal) */
+@media screen and (orientation: landscape) and (max-width: 772px) {
+    .main-section__nav__list {
+        list-style: none;
+        position: relative;
+    }
+
+    .main-section__nav__list {
+        list-style: none;
+        gap: 25px;
+    }
+}
