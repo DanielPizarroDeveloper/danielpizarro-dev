@@ -9,7 +9,7 @@
     margin-bottom: 120px;
     display: flex;
     flex-direction: column;
-    height: 450px;
+    height: 510px;
     background-color: var(--custom-aboutMe-color-gray);
 }
 
