@@ -8,16 +8,21 @@ footer {
 }
 
 
-@media screen and (orientation: portrait) and (max-width: 360px) {
+
+@media screen and (orientation: portrait) and (max-width: 320px) {
     footer {
-        background-color: var(--custom-footer-color-black);
-        height: 820px;
+        display: none;
+    }
+}
+
+@media screen and (orientation: portrait) and (min-width: 330px) and (max-width: 360px) {
+    footer {
+        display: none;
     }
 }
 
 @media screen and (orientation: portrait) and (min-width: 361px) {
     footer {
-        background-color: var(--custom-footer-color-black);
-        height: 820px;
+        display: none;
     }
 }

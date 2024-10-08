@@ -69,6 +69,24 @@
 }
 
 /* Orientación Portrait (Vertical) */
+@media screen and (orientation: portrait) and (max-width: 320px) {
+    .main-section__nav__list {
+        list-style: none;
+        position: relative;
+        padding: 2%;
+        gap: 50px;
+    }
+    
+    .main-section__nav__list__logo {
+        padding-left: 5%;
+    }
+
+    .main-section__nav__list__hamburguesa {
+        position: relative;
+        right: 10%;
+    }
+}
+
 @media screen and (orientation: portrait) and (max-width: 360px) {
     .main-section__nav__list {
         list-style: none;
@@ -86,7 +104,7 @@
     }
 }
 
-@media screen and (orientation: portrait) and (min-width: 384px) {
+@media screen and (orientation: portrait) and (min-width: 375px) {
     .main-section__nav__list {
         list-style: none;
         position: relative;
@@ -100,6 +118,20 @@
 
     .main-section__nav__list__hamburguesa {
         display: block;
+    }
+}
+
+@media screen and (orientation: portrait) and (min-width: 420px) {
+    .main-section__nav__list {
+        list-style: none;
+        position: relative;
+        padding: 2%;
+        justify-content: space-between;
+    }
+    
+    .main-section__nav__list__hamburguesa {
+        position: relative;
+        right: 1%;
     }
 }
 

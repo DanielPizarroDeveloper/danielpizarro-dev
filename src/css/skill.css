@@ -242,6 +242,14 @@
 }
 
 /* Orientación Portrait (Vertical) */
+@media screen and (orientation: portrait) and (max-width: 320px) { 
+    .main-section-skill__container__titulo {
+        width: 300px;
+        text-wrap: pretty;
+        
+    }
+}
+
 @media screen and (orientation: portrait) and (max-width: 360px) {
     .main-section-skill__container__columns {
         flex-direction: column;
