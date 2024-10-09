@@ -13,9 +13,9 @@ function App() {
       <NavPage />
       <HeaderPage />
       <Experiencia />
-      <Skills />
+      {/* <Skills />
       <AboutMe />
-      <Footer />
+      <Footer /> */}
     </>
   )
 }

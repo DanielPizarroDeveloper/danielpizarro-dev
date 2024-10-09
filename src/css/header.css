@@ -155,7 +155,7 @@
 }
 
 /* Orientación Landscape (Horizontal) */
-@media screen and (orientation: landscape) and (max-width: 800px) {
+@media screen and (orientation: landscape) and (max-width: 810px) {
     .main-section-header {
         padding-top: 40%;
         justify-content: space-between;
@@ -167,4 +167,8 @@
         min-width: 0;
         justify-items: center;
     }
+}
+
+@media screen and (orientation: landscape) and (min-width: 811) and (max-width: 900px) {
+    
 }

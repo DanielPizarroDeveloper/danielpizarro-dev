@@ -136,7 +136,7 @@
 }
 
 /* Orientación Landscape (Horizontal) */
-@media screen and (orientation: landscape) and (max-width: 772px) {
+@media screen and (orientation: landscape) and (max-width: 810px) {
     .main-section__nav__list {
         list-style: none;
         position: relative;
