@@ -26,3 +26,9 @@ footer {
         display: none;
     }
 }
+
+@media screen and (orientation: portrait) and (max-width: 920px) {
+    footer {
+        display: none;
+    }
+}

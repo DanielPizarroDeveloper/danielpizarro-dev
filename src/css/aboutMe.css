@@ -217,3 +217,66 @@
         text-align: center;
     }
 }
+
+/* Orientación Landscape (Horizontal) */
+@media screen and (orientation: landscape) and (max-width: 870px) {    
+    .main-section-aboutMe {
+        min-height: 700px;
+    }
+
+    .main-section-aboutMe__titulo {
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .main-section-aboutMe-container {
+        flex-direction: column;
+        padding-left: 0;
+        gap: 0;
+    }
+
+    .main-section-aboutMe-container > article {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-section-aboutMe-container__article {
+        padding-left: 0;
+    }
+
+    .main-section-aboutMe-container__article__container_presentacion,
+    .main-section-aboutMe-container__article__container__presentacion__parrafo {
+        text-align: center;
+    }
+}
+
+@media screen and (orientation: landscape) and (min-width: 871px) and (max-width: 920px) {
+    .main-section-aboutMe {
+        min-height: 700px;
+    }
+
+    .main-section-aboutMe__titulo {
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .main-section-aboutMe-container {
+        flex-direction: column;
+        padding-left: 0;
+        gap: 0;
+    }
+
+    .main-section-aboutMe-container > article {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-section-aboutMe-container__article {
+        padding-left: 0;
+    }
+
+    .main-section-aboutMe-container__article__container_presentacion,
+    .main-section-aboutMe-container__article__container__presentacion__parrafo {
+        text-align: center;
+    }
+}

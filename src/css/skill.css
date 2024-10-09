@@ -167,7 +167,7 @@
         height: 100px;
     }
 
-    /* Div Título Frontend */
+    /* Título Frontend */
     .main-section-skill__container__columns__skill__titulo__div_frontend {
         position: relative;
         top: -60px;
@@ -270,5 +270,228 @@
     .main-section-skill__container__titulo {
         justify-content: center;
         margin-left: 0;
+    }
+}
+
+/* Orientación Landscape (Horizontal) */
+@media screen and (orientation: landscape) and (max-width: 870px) {
+    .main-section-skill__container__titulo {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .main-section-skill__container__columns {
+        flex-direction: column;
+    }
+
+    .main-section-skill__container__columns__logo {
+        top: 80px;
+        left: -25px;
+    }
+
+    .main-section-skill__container__columns__skill {
+        width: 720px;
+        height: 100px;
+    }
+
+    .main-section-skill__container__columns__skill__titulo__div_frontend {
+        position: relative;
+        top: -60px;
+        left: 250px;
+        width: fit-content;
+        font-size: 22px;
+    }
+
+    .main-section-skill__container__columns__skill__titulo__div_frontend > h4 {
+        background-color: white;
+        line-height: 40px;
+        width: 125px;
+        height: 40px;
+    }
+
+    .main-section-skill__container__columns__skill__frontend {
+        position: relative;
+        top: -100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .main-section-skill__container__columns__skill__content__svg {
+        width: 50px;
+        padding-left: 0;
+    }
+
+    .main-section-skill__container__columns__skill__content__detalle {
+        padding-left: 5%;
+    }
+
+    /* Backend Skill */
+    .main-section-skill__container__columns__skill__titulo__div__backend-h4  {
+        position: relative;
+        top: -60px;
+        left: 250px;
+        font-size: 22px;
+    }
+    
+    .main-section-skill__container__columns__skill > h4 {
+        background-color: white;
+        line-height: 40px;
+        width: 125px;
+        height: 40px;
+    }
+
+    .main-section-skill__container__columns__skill__backend {
+        position: relative;
+        right: 10px;
+        top: -80px;
+        flex-direction: row;
+        gap: 0;
+        text-wrap: balance;
+    }
+
+    .main-section-skill__container__columns__skill__content__backend__svg {
+        width: 100px;
+        padding-left: 20%;
+    }
+
+    .main-section-skill__container__columns__skill__content__detalle_backend {
+        padding-left: 0;
+    }
+
+    .main-section-skill__container__columns__skill__titulo__div_database {
+        position: relative;
+        top: -55px;
+        left: 250px;
+        font-size: 22px;
+        width: fit-content;
+    } 
+    
+    .main-section-skill__container__columns__skill__titulo__div__database-h4 {
+        background-color: white;
+        width: 200px;
+        height: 40px;
+    }
+
+    .main-section-skill__container__columns__skill__database {
+        position: relative;
+        top: -85px;
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        gap: 100px;
+        text-wrap: nowrap;
+    }
+}
+
+@media screen and (orientation: landscape) and (min-width: 871px) and (max-width: 920px) {
+    .main-section-skill__container__titulo {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .main-section-skill__container__columns {
+        flex-direction: column;
+    }
+
+    .main-section-skill__container__columns__logo {
+        top: 80px;
+        left: -25px;
+    }
+
+    .main-section-skill__container__columns__skill {
+        width: 720px;
+        height: 100px;
+    }
+
+    .main-section-skill__container__columns__skill__titulo__div_frontend {
+        position: relative;
+        top: -60px;
+        left: 250px;
+        width: fit-content;
+        font-size: 22px;
+    }
+
+    .main-section-skill__container__columns__skill__titulo__div_frontend > h4 {
+        background-color: white;
+        line-height: 40px;
+        width: 125px;
+        height: 40px;
+    }
+
+    .main-section-skill__container__columns__skill__frontend {
+        position: relative;
+        top: -105px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .main-section-skill__container__columns__skill__content__svg {
+        width: 50px;
+        padding-left: 0;
+    }
+
+    .main-section-skill__container__columns__skill__content__detalle {
+        padding-left: 5%;
+    }
+
+    /* Backend Skill */
+    .main-section-skill__container__columns__skill__titulo__div__backend-h4  {
+        position: relative;
+        top: -60px;
+        left: 250px;
+        font-size: 22px;
+    }
+    
+    .main-section-skill__container__columns__skill > h4 {
+        background-color: white;
+        line-height: 40px;
+        width: 125px;
+        height: 40px;
+    }
+
+    .main-section-skill__container__columns__skill__backend {
+        position: relative;
+        right: 10px;
+        top: -80px;
+        flex-direction: row;
+        gap: 0;
+        text-wrap: balance;
+    }
+
+    .main-section-skill__container__columns__skill__content__backend__svg {
+        width: 100px;
+        padding-left: 20%;
+    }
+
+    .main-section-skill__container__columns__skill__content__detalle_backend {
+        padding-left: 0;
+    }
+
+    .main-section-skill__container__columns__skill__titulo__div_database {
+        position: relative;
+        top: -55px;
+        left: 250px;
+        font-size: 22px;
+        width: fit-content;
+    } 
+    
+    .main-section-skill__container__columns__skill__titulo__div__database-h4 {
+        background-color: white;
+        width: 200px;
+        height: 40px;
+    }
+
+    .main-section-skill__container__columns__skill__database {
+        position: relative;
+        top: -75px;
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        gap: 100px;
+        text-wrap: nowrap;
     }
 }

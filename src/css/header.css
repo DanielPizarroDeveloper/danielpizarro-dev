@@ -155,7 +155,7 @@
 }
 
 /* Orientación Landscape (Horizontal) */
-@media screen and (orientation: landscape) and (max-width: 810px) {
+@media screen and (orientation: landscape) and (max-width: 870px) {
     .main-section-header {
         padding-top: 40%;
         justify-content: space-between;
@@ -167,8 +167,20 @@
         min-width: 0;
         justify-items: center;
     }
+
 }
 
-@media screen and (orientation: landscape) and (min-width: 811) and (max-width: 900px) {
-    
+@media screen and (orientation: landscape) and (min-width: 871px) and (max-width: 920px) {
+    .main-section-header {
+        padding-top: 35%;
+        justify-content: space-between;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .main-section-header__article {
+        min-width: 0;
+        justify-items: center;
+    }
+
 }

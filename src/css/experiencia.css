@@ -226,3 +226,50 @@
         text-align: center;
     }
 }
+
+/* Orientación Landscape (Horizontal) */
+@media screen and (orientation: landscape) and (max-width: 870px) {
+    .main-section-exp {
+        min-height: 750px;
+        max-height: 750px;
+    }
+
+    .main-section-exp__titulo {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .main-section-exp__experiencia {
+        flex-direction: column;
+        gap: 50px;
+        max-height: none;
+        align-items: center;
+    }
+
+    .main-section-exp__article {
+        width: max-content;
+    }
+}
+
+@media screen and (orientation: landscape) and (min-width: 871px) and (max-width: 920px) {
+    .main-section-exp {
+        min-height: 750px;
+        max-height: 750px;
+    }
+
+    .main-section-exp__titulo {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .main-section-exp__experiencia {
+        flex-direction: column;
+        gap: 50px;
+        max-height: none;
+        align-items: center;
+    }
+
+    .main-section-exp__article {
+        width: max-content;
+    }
+}
