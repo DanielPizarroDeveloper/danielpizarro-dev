@@ -108,6 +108,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    justify-content: space-around;
 }
 
 .main-section-skill__container__columns__skill__content_backend {
@@ -216,6 +217,7 @@
         flex-direction: row;
         position: relative;
         top: -80px;
+        justify-content: space-around;
     }
 
     .main-section-skill__container__columns__skill__content__svg,
