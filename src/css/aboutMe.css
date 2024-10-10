@@ -219,6 +219,18 @@
 }
 
 /* Orientación Landscape (Horizontal) */
+@media screen and (orientation: landscape) and (min-width: 480px) and (max-width: 670px) {
+    .main-section-aboutMe {
+        top: 880px;
+        min-height: 900px;
+        height: max-content;
+    }
+
+    .main-section-aboutMe-container__article__container_presentacion {
+        padding: 5%;
+    }
+}
+
 @media screen and (orientation: landscape) and (max-width: 870px) {    
     .main-section-aboutMe {
         min-height: 700px;

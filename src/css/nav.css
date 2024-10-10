@@ -136,7 +136,133 @@
 }
 
 /* Orientación Landscape (Horizontal) */
-@media screen and (orientation: landscape) and (max-width: 810px) {
+/* iOS */
+/* @media screen and (orientation: landscape) and (max-width: 490px) {
+    .main-section__nav__list {
+        gap: 100px;
+    }
+
+    .main-section__nav__list__logo {
+        position: relative;
+        left: -90px;
+    }
+
+    .main-section__nav__list__hamburguesa {
+        position: relative;
+        left: 60px;
+    }
+
+    .main-section__nav__list__option {
+        display: none;
+    }
+    
+    .main-section__nav__list__hamburguesa {
+        display: block;
+    }
+} */
+
+/* iOS */
+/* @media screen and (orientation: landscape) and (min-width: 491px) and (max-width: 550px) {
+    .main-section__nav__list {
+        gap: 100px;
+    }
+
+    .main-section__nav__list__logo {
+        position: relative;
+        right: 140px;
+    }
+
+    .main-section__nav__list__hamburguesa {
+        position: relative;
+        left: 90px;
+    }
+
+    .main-section__nav__list__option {
+        display: none;
+    }
+    
+    .main-section__nav__list__hamburguesa {
+        display: block;
+    }
+} */
+
+/* iOS */
+/* @media screen and (orientation: landscape) and (min-width: 551px) and (max-width: 600px) {
+    .main-section__nav__list {
+        gap: 100px;
+    }
+
+    .main-section__nav__list__logo {
+        position: relative;
+        left: -145px;
+    }
+
+    .main-section__nav__list__hamburguesa {
+        position: relative;
+        left: 90px;
+    }
+
+    .main-section__nav__list__option {
+        display: none;
+    }
+    
+    .main-section__nav__list__hamburguesa {
+        display: block;
+    }
+} */
+
+/* iOS */
+/* @media screen and (orientation: landscape) and (min-width: 601px) and (max-width: 670px) {
+    .main-section__nav__list {
+        gap: 100px;
+    }
+
+    .main-section__nav__list__logo {
+        position: relative;
+        left: -180px;
+    }
+
+    .main-section__nav__list__hamburguesa {
+        position: relative;
+        left: 140px;
+    }
+
+    .main-section__nav__list__option {
+        display: none;
+    }
+    
+    .main-section__nav__list__hamburguesa {
+        display: block;
+    }
+} */
+
+/* iOS */
+/* @media screen and (orientation: landscape) and (min-width: 671px) and (max-width: 740px) {
+    .main-section__nav__list {
+        gap: 100px;
+    }
+
+    .main-section__nav__list__logo {
+        position: relative;
+        left: -210px;
+    }
+
+    .main-section__nav__list__hamburguesa {
+        position: relative;
+        left: 60%;
+    }
+
+    .main-section__nav__list__option {
+        display: none;
+    }
+    
+    .main-section__nav__list__hamburguesa {
+        display: block;
+    }
+} */
+
+/* Android - iOS */
+/* @media screen and (orientation: landscape) and (max-width: 815px) {
     .main-section__nav__list {
         list-style: none;
         position: relative;
@@ -146,4 +272,9 @@
         list-style: none;
         gap: 25px;
     }
-}
+
+    .main-section__nav__list__logo {
+        position: relative;
+        right: 40px;
+    }
+} */

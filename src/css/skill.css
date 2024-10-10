@@ -276,7 +276,20 @@
 }
 
 /* Orientación Landscape (Horizontal) */
-@media screen and (orientation: landscape) and (max-width: 870px) {
+/* iOS */
+/* @media screen and (orientation: landscape) and (min-width: 480px) and (max-width: 740px) {
+    .main-section-skill__container__titulo {
+        justify-content: center;
+        margin-left: 0;
+    }
+    
+    .main-section-skill__container__columns {
+        flex-direction: column;
+    }
+} */
+
+/* Android - Revisar el min-width */
+/* @media screen and (orientation: landscape) and (min-width: 860px) and (max-width: 870px) {
     .main-section-skill__container__titulo {
         justify-content: center;
         margin-left: 0;
@@ -329,7 +342,6 @@
         padding-left: 5%;
     }
 
-    /* Backend Skill */
     .main-section-skill__container__columns__skill__titulo__div__backend-h4  {
         position: relative;
         top: -60px;
@@ -385,9 +397,10 @@
         gap: 100px;
         text-wrap: nowrap;
     }
-}
+} */
 
-@media screen and (orientation: landscape) and (min-width: 871px) and (max-width: 920px) {
+/* Android */
+/* @media screen and (orientation: landscape) and (min-width: 871px) and (max-width: 920px) {
     .main-section-skill__container__titulo {
         justify-content: center;
         margin-left: 0;
@@ -440,7 +453,6 @@
         padding-left: 5%;
     }
 
-    /* Backend Skill */
     .main-section-skill__container__columns__skill__titulo__div__backend-h4  {
         position: relative;
         top: -60px;
@@ -496,4 +508,4 @@
         gap: 100px;
         text-wrap: nowrap;
     }
-}
+} */

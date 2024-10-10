@@ -3,7 +3,7 @@ import { HeaderPage } from './Components/header'
 import { Experiencia } from './Components/experiencia'
 import { Skills } from './Components/skills'
 import { AboutMe } from './Components/aboutMe'
-import { Footer } from './Components/footer'
+// import { Footer } from './Components/footer'
 
 import './App.css'
 
@@ -15,7 +15,7 @@ function App() {
       <Experiencia />
       <Skills />
       <AboutMe />
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
