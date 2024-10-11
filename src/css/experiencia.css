@@ -48,7 +48,7 @@
     background-color: var(--custom-exp-color-gray);
     position: relative;
     top: -25px;
-    left: 50%;
+    left: 45%;
     border: 1px solid var(--custom-exp-color-black);
     width: 50px;
     min-width: 50px;
@@ -83,7 +83,161 @@
     text-align: left;
 }
 
-/* OK */
+@media screen and (min-width: 1280px) and (max-width: 1720px) {
+    .main-section-exp {
+        margin-top: 2%;
+        width: 100%;
+    }
+
+    .main-section-exp__experiencia {
+        gap: 0;
+        padding-right: 4%;
+    }
+
+    .main-section-exp__experiencia__article__icon {
+        left: 320px;
+    }
+
+    .main-section-exp__article {
+        width: 70%;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .main-section-exp__experiencia__article__icon {
+        left: 330px;
+    }
+}
+
+/* Orientación Portrait (Vertical) */
+@media screen and (orientation: portrait) and (max-width: 320px) {
+    .main-section-exp {
+        margin-top: 70% !important;
+        min-height: 1250px !important;
+        max-height: max-content;
+    }
+    
+    .main-section-exp__article {
+        width: 90%;
+        justify-content: center;
+        position: relative;
+        top: 125px;
+    }
+
+    .main-section-exp__titulo {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .main-section-exp__experiencia {
+        flex-direction: column;
+        margin-top: 90%;
+        gap: 50px;
+    }
+
+    .main-section-exp__article {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .main-section-exp__experiencia__article__informacion {
+        height: max-content;
+    }
+
+    .main-section-exp__experiencia__article__informacion__puesto-Trabajo {
+        line-height: 20px;
+    }
+
+    .main-section-exp__experiencia__article__informacion__puesto-Trabajo > h4 {
+        margin-top: 15%;
+    }
+
+    .main-section-exp__experiencia__article__informacion__parrafo {
+        text-align: center;
+    }
+}
+
+@media screen and (orientation: portrait) and (min-width: 330px) and (max-width: 360px) {
+    .main-section-exp {
+        margin-top: 60%;
+        min-height: 1100px;
+        max-height: max-content;
+    }
+
+    .main-section-exp__titulo {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .main-section-exp__experiencia {
+        flex-direction: column;
+        margin-top: 90%;
+        gap: 50px;
+    }
+
+    .main-section-exp__article {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .main-section-exp__experiencia__article__informacion {
+        height: max-content;
+    }
+
+    .main-section-exp__experiencia__article__informacion__puesto-Trabajo {
+        line-height: 20px;
+    }
+
+    .main-section-exp__experiencia__article__informacion__puesto-Trabajo > h4 {
+        margin-top: 15%;
+    }
+
+    .main-section-exp__experiencia__article__informacion__parrafo {
+        text-align: center;
+    }
+}
+
+@media screen and (orientation: portrait) and (min-width: 361px) and (max-width: 479px) {
+    .main-section-exp {
+        margin-top: 60%;
+        min-height: 1100px;
+        max-height: max-content;
+    }
+
+    .main-section-exp__titulo {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .main-section-exp__experiencia {
+        flex-direction: column;
+        margin-top: 80%;
+        gap: 50px;
+    }
+
+    .main-section-exp__article {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .main-section-exp__experiencia__article__informacion {
+        height: max-content
+    }
+
+    .main-section-exp__experiencia__article__informacion__puesto-Trabajo {
+        line-height: 20px;
+    }
+
+    .main-section-exp__experiencia__article__informacion__puesto-Trabajo > h4 {
+        margin-top: 15%;
+    }
+
+    .main-section-exp__experiencia__article__informacion__parrafo {
+        text-align: center;
+    }
+}
+
 @media screen and (orientation: portrait) and (min-width: 768px) and (max-width: 819px) {
     .main-section-exp {
         margin-top: 10%;
@@ -214,151 +368,6 @@
 
     .main-section-exp__experiencia__article__informacion__puesto-Trabajo > h4 {
         margin-top: 0;
-    }
-
-    .main-section-exp__experiencia__article__informacion__parrafo {
-        text-align: center;
-    }
-}
-
-@media screen and (min-width: 1280px) and (max-width: 1720px) {
-    .main-section-exp {
-        margin-top: 2%;
-        width: 100%;
-    }
-
-    .main-section-exp__experiencia {
-        gap: 0;
-        padding-right: 4%;
-    }
-
-    .main-section-exp__article {
-        width: 70%;
-        justify-content: center;
-    }
-}
-
-/* Orientación Portrait (Vertical) */
-@media screen and (orientation: portrait) and (max-width: 320px) {
-    .main-section-exp {
-        margin-top: 70% !important;
-        min-height: 1250px !important;
-        max-height: max-content;
-    }
-    
-    .main-section-exp__article {
-        width: 90%;
-        justify-content: center;
-        position: relative;
-        top: 125px;
-    }
-
-    .main-section-exp__titulo {
-        justify-content: center;
-        margin-left: 0;
-    }
-
-    .main-section-exp__experiencia {
-        flex-direction: column;
-        margin-top: 90%;
-        gap: 50px;
-    }
-
-    .main-section-exp__article {
-        width: 90%;
-        justify-content: center;
-    }
-
-    .main-section-exp__experiencia__article__informacion {
-        height: max-content;
-    }
-
-    .main-section-exp__experiencia__article__informacion__puesto-Trabajo {
-        line-height: 20px;
-    }
-
-    .main-section-exp__experiencia__article__informacion__puesto-Trabajo > h4 {
-        margin-top: 15%;
-    }
-
-    .main-section-exp__experiencia__article__informacion__parrafo {
-        text-align: center;
-    }
-}
-
-@media screen and (orientation: portrait) and (min-width: 330px) and (max-width: 360px) {
-    .main-section-exp {
-        margin-top: 60%;
-        min-height: 1100px;
-        max-height: max-content;
-    }
-
-    .main-section-exp__titulo {
-        justify-content: center;
-        margin-left: 0;
-    }
-
-    .main-section-exp__experiencia {
-        flex-direction: column;
-        margin-top: 90%;
-        gap: 50px;
-    }
-
-    .main-section-exp__article {
-        width: 90%;
-        justify-content: center;
-    }
-
-    .main-section-exp__experiencia__article__informacion {
-        height: max-content;
-    }
-
-    .main-section-exp__experiencia__article__informacion__puesto-Trabajo {
-        line-height: 20px;
-    }
-
-    .main-section-exp__experiencia__article__informacion__puesto-Trabajo > h4 {
-        margin-top: 15%;
-    }
-
-    .main-section-exp__experiencia__article__informacion__parrafo {
-        text-align: center;
-    }
-}
-
-@media screen and (orientation: portrait) and (min-width: 361px) and (max-width: 479px) {
-    .main-section-exp {
-        margin-top: 60%;
-        min-height: 1100px;
-        max-height: max-content;
-    }
-
-    .main-section-exp__titulo {
-        justify-content: center;
-        margin-left: 0;
-    }
-
-    .main-section-exp__experiencia {
-        flex-direction: column;
-        margin-top: 80%;
-        gap: 50px;
-    }
-
-    .main-section-exp__article {
-        width: 90%;
-        justify-content: center;
-    }
-
-    .main-section-exp__experiencia__article__informacion {
-        height: max-content
-    }
-
-    .main-section-exp__experiencia__article__informacion__puesto-Trabajo {
-        line-height: 20px;
-    }
-
-    .main-section-exp__experiencia__article__informacion__puesto-Trabajo > h4 {
-        margin-top: 15%;
     }
 
     .main-section-exp__experiencia__article__informacion__parrafo {

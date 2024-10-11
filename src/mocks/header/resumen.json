@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "url": "public\\document\\Curriculum - Daniel Pizarro Saavedra.pdf",
+        "pdfName": "Curriculum - Daniel Pizarro Saavedra.pdf",
+        "version": "Versión Español"
+    },
+    {
+        "id": 2,
+        "url": "public\\document\\Resume - Daniel Pizarro Saavedra.pdf",
+        "pdfName": "Resume - Daniel Pizarro Saavedra.pdf",
+        "version": "Versión Inglés"
+    }
+]
