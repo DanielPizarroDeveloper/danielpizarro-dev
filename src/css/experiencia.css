@@ -376,8 +376,8 @@
 }
 
 /* Orientación Landscape (Horizontal) */
-/* iOS */
-/* @media screen and (orientation: landscape) and (max-width: 480px) {
+/* iOS - iPhone 4 */
+@media screen and (orientation: landscape) and (max-width: 480px) {
     .main-section-exp {
         margin-top: 35%;
         min-height: 750px;
@@ -403,6 +403,7 @@
 
     .main-section-exp__experiencia__article__informacion {
         height: max-content;
+        margin-right: 10%;
     }
     
     .main-section-exp__experiencia__article__informacion__puesto-Trabajo {
@@ -412,7 +413,11 @@
     .main-section-exp__experiencia__article__informacion__puesto-Trabajo > h5 {
         line-height: 20px;
     }
-} */
+
+    .main-section-exp__experiencia__article__informacion__parrafo {
+        text-align: center;
+    }
+}
 
 /* iOS */
 /* @media screen and (orientation: landscape) and (min-width: 481px) and (max-width: 570px) {

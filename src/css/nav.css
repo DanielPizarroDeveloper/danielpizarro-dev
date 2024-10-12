@@ -136,20 +136,20 @@
 }
 
 /* Orientación Landscape (Horizontal) */
-/* iOS */
-/* @media screen and (orientation: landscape) and (max-width: 490px) {
+/* iOS - iPhone 4 */
+@media screen and (orientation: landscape) and (max-width: 480px) {
     .main-section__nav__list {
         gap: 100px;
     }
 
     .main-section__nav__list__logo {
         position: relative;
-        left: -90px;
+        right: 50px;
     }
 
     .main-section__nav__list__hamburguesa {
         position: relative;
-        left: 60px;
+        right: -15px;
     }
 
     .main-section__nav__list__option {
@@ -159,7 +159,7 @@
     .main-section__nav__list__hamburguesa {
         display: block;
     }
-} */
+}
 
 /* iOS */
 /* @media screen and (orientation: landscape) and (min-width: 491px) and (max-width: 550px) {

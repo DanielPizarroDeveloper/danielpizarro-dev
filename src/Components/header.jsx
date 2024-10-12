@@ -43,7 +43,7 @@ export function HeaderPage() {
           }
 
           <Popover
-            position={Position.RIGHT}
+            position={Position.BOTTOM}
             content={
               <Menu>
                 <Menu.Group>

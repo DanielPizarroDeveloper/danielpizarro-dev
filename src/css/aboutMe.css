@@ -219,7 +219,7 @@
 }
 
 /* Orientación Landscape (Horizontal) */
-@media screen and (orientation: landscape) and (min-width: 480px) and (max-width: 670px) {
+@media screen and (orientation: landscape) and (max-width: 480px) {
     .main-section-aboutMe {
         top: 880px;
         min-height: 900px;

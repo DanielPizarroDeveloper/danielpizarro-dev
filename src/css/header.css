@@ -180,8 +180,8 @@
 }
 
 /* Orientación Landscape (Horizontal) */
-/* iOS */
-/* @media screen and (orientation: landscape) and (max-width: 480px) {
+/* iOS - iPhone 4 */
+@media screen and (orientation: landscape) and (max-width: 480px) {
     .main-section-header {
         flex-direction: column;
     }
@@ -194,7 +194,7 @@
     .main-section-header__article__img {
         width: 200px;
     }
-} */
+}
 
 /* iOS */
 /* @media screen and (orientation: landscape) and (min-width: 481px) and (max-width: 570px) {

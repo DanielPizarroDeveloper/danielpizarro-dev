@@ -276,8 +276,8 @@
 }
 
 /* Orientación Landscape (Horizontal) */
-/* iOS */
-/* @media screen and (orientation: landscape) and (min-width: 480px) and (max-width: 740px) {
+/* iOS - iPhone 4 */
+@media screen and (orientation: landscape) and (min-width: 480px) {
     .main-section-skill__container__titulo {
         justify-content: center;
         margin-left: 0;
@@ -286,7 +286,7 @@
     .main-section-skill__container__columns {
         flex-direction: column;
     }
-} */
+}
 
 /* Android - Revisar el min-width */
 /* @media screen and (orientation: landscape) and (min-width: 860px) and (max-width: 870px) {
