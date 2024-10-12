@@ -136,20 +136,108 @@
 }
 
 /* Orientación Landscape (Horizontal) */
-/* iOS - iPhone 4 */
+/* iOS */
+/* iPhone 4 */
 @media screen and (orientation: landscape) and (max-width: 480px) {
-    .main-section__nav__list {
-        gap: 100px;
-    }
-
     .main-section__nav__list__logo {
         position: relative;
-        right: 50px;
+        right: 15%;
     }
 
     .main-section__nav__list__hamburguesa {
         position: relative;
-        right: -15px;
+        left: 5%;
+    }
+}
+
+/* iOS */
+/* iPhone 5 / iPhone SE 2016 */
+@media screen and (orientation: landscape) and (min-width: 568px) and (max-width: 599px) {
+    .main-section__nav__list__logo {
+        position: relative;
+        right: 30%;
+    }
+
+    .main-section__nav__list__hamburguesa {
+        position: relative;
+        left: 15%;
+    }
+}
+
+/* iOS */
+/* iPhone SE */
+@media screen and (orientation: landscape) and (min-width: 600px) and (max-width: 668px) {
+    .main-section__nav__list__logo {
+        position: relative;
+        right: 45%;
+    }
+
+    .main-section__nav__list__hamburguesa {
+        position: relative;
+        left: 30%;
+    }
+}
+
+/* iOS */
+/* iPhone 6/7/8 Plus 736px / Galaxy S22 Ultra - Galaxy S24 */
+@media screen and (orientation: landscape) and (min-width: 669px) and (max-width: 780px) {
+    .main-section__nav__list__logo {
+        position: relative;
+        right: 50%;
+    }
+
+    .main-section__nav__list__hamburguesa {
+        position: relative;
+        left: 35%;
+    }
+}
+
+/* Android - iOS */
+/* Galaxy S20 - OPPO Find X3 PRO - Galaxy S24 Ultra - iPhone X - Android - iOS / Pixel 5 - iPhone 14 Pro */
+@media screen and (orientation: landscape) and (min-width: 800px) and (max-width: 852px) {
+    .main-section__nav__list__logo {
+        position: relative;
+        right: 60%;
+    }
+
+    .main-section__nav__list__hamburguesa {
+        position: relative;
+        left: 45%;
+    }
+}
+
+/* Android - iOS */
+/* Galaxy Z Flip 3 - Galaxy Note 20 Ultra - iPhone XR */
+@media screen and (orientation: landscape) and (min-width: 880px) and (max-width: 896px) {
+    .main-section__nav__list__logo {
+        position: relative;
+        right: 70%;
+    }
+
+    .main-section__nav__list__hamburguesa {
+        position: relative;
+        left: 55%;
+    }
+}
+
+/* Android - iOS */
+/* Oneplus Nord 2 - Pixel 8 - iPhone 14 Plus */
+@media screen and (orientation: landscape) and (min-width: 915px) and (max-width: 930px) {
+    .main-section__nav__list__logo {
+        position: relative;
+        right: 75%;
+    }
+
+    .main-section__nav__list__hamburguesa {
+        position: relative;
+        left: 65%;
+    }
+}
+
+/* Nav Hamburguesa */
+@media screen and (orientation: landscape) and (max-width: 930px) {
+    .main-section__nav__list {
+        gap: 100px;
     }
 
     .main-section__nav__list__option {
@@ -160,121 +248,3 @@
         display: block;
     }
 }
-
-/* iOS */
-/* @media screen and (orientation: landscape) and (min-width: 491px) and (max-width: 550px) {
-    .main-section__nav__list {
-        gap: 100px;
-    }
-
-    .main-section__nav__list__logo {
-        position: relative;
-        right: 140px;
-    }
-
-    .main-section__nav__list__hamburguesa {
-        position: relative;
-        left: 90px;
-    }
-
-    .main-section__nav__list__option {
-        display: none;
-    }
-    
-    .main-section__nav__list__hamburguesa {
-        display: block;
-    }
-} */
-
-/* iOS */
-/* @media screen and (orientation: landscape) and (min-width: 551px) and (max-width: 600px) {
-    .main-section__nav__list {
-        gap: 100px;
-    }
-
-    .main-section__nav__list__logo {
-        position: relative;
-        left: -145px;
-    }
-
-    .main-section__nav__list__hamburguesa {
-        position: relative;
-        left: 90px;
-    }
-
-    .main-section__nav__list__option {
-        display: none;
-    }
-    
-    .main-section__nav__list__hamburguesa {
-        display: block;
-    }
-} */
-
-/* iOS */
-/* @media screen and (orientation: landscape) and (min-width: 601px) and (max-width: 670px) {
-    .main-section__nav__list {
-        gap: 100px;
-    }
-
-    .main-section__nav__list__logo {
-        position: relative;
-        left: -180px;
-    }
-
-    .main-section__nav__list__hamburguesa {
-        position: relative;
-        left: 140px;
-    }
-
-    .main-section__nav__list__option {
-        display: none;
-    }
-    
-    .main-section__nav__list__hamburguesa {
-        display: block;
-    }
-} */
-
-/* iOS */
-/* @media screen and (orientation: landscape) and (min-width: 671px) and (max-width: 740px) {
-    .main-section__nav__list {
-        gap: 100px;
-    }
-
-    .main-section__nav__list__logo {
-        position: relative;
-        left: -210px;
-    }
-
-    .main-section__nav__list__hamburguesa {
-        position: relative;
-        left: 60%;
-    }
-
-    .main-section__nav__list__option {
-        display: none;
-    }
-    
-    .main-section__nav__list__hamburguesa {
-        display: block;
-    }
-} */
-
-/* Android - iOS */
-/* @media screen and (orientation: landscape) and (max-width: 815px) {
-    .main-section__nav__list {
-        list-style: none;
-        position: relative;
-    }
-
-    .main-section__nav__list {
-        list-style: none;
-        gap: 25px;
-    }
-
-    .main-section__nav__list__logo {
-        position: relative;
-        right: 40px;
-    }
-} */
