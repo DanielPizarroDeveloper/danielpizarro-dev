@@ -78,6 +78,7 @@
     }
     
     .main-section__nav__list__logo {
+        min-width: 204px;
         padding-left: 5%;
     }
 
@@ -94,7 +95,12 @@
         padding: 5%;
         gap: 100px;
     }
-
+    
+    .main-section__nav__list__logo {
+        min-width: 204px;
+        padding-left: 5%;
+    }
+    
     .main-section__nav__list__option {
         display: none;
     }
@@ -260,5 +266,15 @@
     
     .main-section__nav__list__hamburguesa {
         display: block;
+    }
+
+    .main-section__nav__list__logo {
+        min-width: 204px;
+    }
+}
+
+@media screen and (orientation: portrait) and (max-width: 1024px) {
+    .main-section__nav__list__logo {
+        min-width: 204px;
     }
 }
