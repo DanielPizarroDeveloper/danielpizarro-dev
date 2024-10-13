@@ -257,7 +257,7 @@
 /* Nav Hamburguesa */
 @media screen and (orientation: landscape) and (max-width: 930px) {
     .main-section__nav__list {
-        gap: 100px;
+        gap: 50px;
     }
 
     .main-section__nav__list__option {
@@ -268,13 +268,13 @@
         display: block;
     }
 
-    .main-section__nav__list__logo {
-        min-width: 204px;
+    .main-section__nav__logo__titulo {
+        width: fit-content;
     }
 }
 
 @media screen and (orientation: portrait) and (max-width: 1024px) {
-    .main-section__nav__list__logo {
-        min-width: 204px;
+    .main-section__nav__logo__titulo {
+        width: fit-content;
     }
 }
