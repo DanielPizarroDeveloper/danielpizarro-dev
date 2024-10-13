@@ -218,6 +218,8 @@
     }
 }
 
+/* Revisar los responsive de About Me de todos los modelos de iPhone, para ajustar los tamaños a la diferentes resoluciones */
+
 /* Orientación Landscape (Horizontal) */
 @media screen and (orientation: landscape) and (max-width: 480px) {
     .main-section-aboutMe {

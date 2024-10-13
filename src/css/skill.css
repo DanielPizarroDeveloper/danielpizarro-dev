@@ -147,6 +147,7 @@
     align-items: center;
 }
 
+
 @media screen and (max-width: 1280px) {
     .main-section-skill {
         height: 470px;
@@ -275,9 +276,28 @@
     }
 }
 
-/* Orientación Landscape (Horizontal) */
-/* iOS - iPhone 4 */
-@media screen and (orientation: landscape) and (min-width: 480px) {
+@media screen and (orientation: portrait) and (min-width: 760px) and (max-width: 820px) {
+    .main-section-skill__container__columns {
+        padding-left: 0;
+        padding-right: 0;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .main-section-skill__container__titulo {
+        justify-content: center;
+        margin-left: 0;
+    }
+}
+
+@media screen and (orientation: portrait) and (min-width: 920px) and (max-width: 1024px) {
+    .main-section-skill__container__columns {
+        flex-direction: row;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-width: 668px) {
     .main-section-skill__container__titulo {
         justify-content: center;
         margin-left: 0;
@@ -288,8 +308,7 @@
     }
 }
 
-/* Android - Revisar el min-width */
-/* @media screen and (orientation: landscape) and (min-width: 860px) and (max-width: 870px) {
+@media screen and (orientation: landscape) and (min-width: 730px) and (max-width: 769px) {
     .main-section-skill__container__titulo {
         justify-content: center;
         margin-left: 0;
@@ -298,214 +317,82 @@
     .main-section-skill__container__columns {
         flex-direction: column;
     }
+}
 
-    .main-section-skill__container__columns__logo {
-        top: 80px;
-        left: -25px;
-    }
-
-    .main-section-skill__container__columns__skill {
-        width: 720px;
-        height: 100px;
-    }
-
-    .main-section-skill__container__columns__skill__titulo__div_frontend {
-        position: relative;
-        top: -60px;
-        left: 250px;
-        width: fit-content;
-        font-size: 22px;
-    }
-
-    .main-section-skill__container__columns__skill__titulo__div_frontend > h4 {
-        background-color: white;
-        line-height: 40px;
-        width: 125px;
-        height: 40px;
-    }
-
-    .main-section-skill__container__columns__skill__frontend {
-        position: relative;
-        top: -100px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 15px;
-    }
-
-    .main-section-skill__container__columns__skill__content__svg {
-        width: 50px;
-        padding-left: 0;
-    }
-
-    .main-section-skill__container__columns__skill__content__detalle {
-        padding-left: 5%;
-    }
-
-    .main-section-skill__container__columns__skill__titulo__div__backend-h4  {
-        position: relative;
-        top: -60px;
-        left: 250px;
-        font-size: 22px;
-    }
-    
-    .main-section-skill__container__columns__skill > h4 {
-        background-color: white;
-        line-height: 40px;
-        width: 125px;
-        height: 40px;
-    }
-
-    .main-section-skill__container__columns__skill__backend {
-        position: relative;
-        right: 10px;
-        top: -80px;
-        flex-direction: row;
-        gap: 0;
-        text-wrap: balance;
-    }
-
-    .main-section-skill__container__columns__skill__content__backend__svg {
-        width: 100px;
-        padding-left: 20%;
-    }
-
-    .main-section-skill__container__columns__skill__content__detalle_backend {
-        padding-left: 0;
-    }
-
-    .main-section-skill__container__columns__skill__titulo__div_database {
-        position: relative;
-        top: -55px;
-        left: 250px;
-        font-size: 22px;
-        width: fit-content;
-    } 
-    
-    .main-section-skill__container__columns__skill__titulo__div__database-h4 {
-        background-color: white;
-        width: 200px;
-        height: 40px;
-    }
-
-    .main-section-skill__container__columns__skill__database {
-        position: relative;
-        top: -85px;
-        display: flex; 
-        flex-direction: row;
-        justify-content: center;
-        gap: 100px;
-        text-wrap: nowrap;
-    }
-} */
-
-/* Android */
-/* @media screen and (orientation: landscape) and (min-width: 871px) and (max-width: 920px) {
+@media screen and (orientation: landscape) and (min-width: 770px) and (max-width: 780px) {
     .main-section-skill__container__titulo {
         justify-content: center;
         margin-left: 0;
     }
 
     .main-section-skill__container__columns {
-        flex-direction: column;
-    }
-
-    .main-section-skill__container__columns__logo {
-        top: 80px;
-        left: -25px;
-    }
-
-    .main-section-skill__container__columns__skill {
-        width: 720px;
-        height: 100px;
-    }
-
-    .main-section-skill__container__columns__skill__titulo__div_frontend {
-        position: relative;
-        top: -60px;
-        left: 250px;
-        width: fit-content;
-        font-size: 22px;
-    }
-
-    .main-section-skill__container__columns__skill__titulo__div_frontend > h4 {
-        background-color: white;
-        line-height: 40px;
-        width: 125px;
-        height: 40px;
-    }
-
-    .main-section-skill__container__columns__skill__frontend {
-        position: relative;
-        top: -105px;
-        display: flex;
+        padding-left: 2.5%;
         flex-direction: row;
+        gap: 10px;
+    }
+}
+
+@media screen and (orientation: landscape) and (min-width: 800px) and (max-width: 804px) {
+    .main-section-skill__container__titulo {
         justify-content: center;
-        gap: 15px;
+        margin-left: 0;
     }
 
-    .main-section-skill__container__columns__skill__content__svg {
-        width: 50px;
-        padding-left: 0;
-    }
-
-    .main-section-skill__container__columns__skill__content__detalle {
-        padding-left: 5%;
-    }
-
-    .main-section-skill__container__columns__skill__titulo__div__backend-h4  {
-        position: relative;
-        top: -60px;
-        left: 250px;
-        font-size: 22px;
-    }
-    
-    .main-section-skill__container__columns__skill > h4 {
-        background-color: white;
-        line-height: 40px;
-        width: 125px;
-        height: 40px;
-    }
-
-    .main-section-skill__container__columns__skill__backend {
-        position: relative;
-        right: 10px;
-        top: -80px;
+    .main-section-skill__container__columns {
+        padding-left: 4%;
         flex-direction: row;
-        gap: 0;
-        text-wrap: balance;
+        gap: 10px;
     }
+}
 
-    .main-section-skill__container__columns__skill__content__backend__svg {
-        width: 100px;
-        padding-left: 20%;
-    }
-
-    .main-section-skill__container__columns__skill__content__detalle_backend {
-        padding-left: 0;
-    }
-
-    .main-section-skill__container__columns__skill__titulo__div_database {
-        position: relative;
-        top: -55px;
-        left: 250px;
-        font-size: 22px;
-        width: fit-content;
-    } 
-    
-    .main-section-skill__container__columns__skill__titulo__div__database-h4 {
-        background-color: white;
-        width: 200px;
-        height: 40px;
-    }
-
-    .main-section-skill__container__columns__skill__database {
-        position: relative;
-        top: -75px;
-        display: flex; 
-        flex-direction: row;
+@media screen and (orientation: landscape) and (min-width: 812px) and (max-width: 830px) {
+    .main-section-skill__container__titulo {
         justify-content: center;
-        gap: 100px;
-        text-wrap: nowrap;
+        margin-left: 0;
     }
-} */
+
+    .main-section-skill__container__columns {
+        padding-left: 3%;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+@media screen and (orientation: landscape) and (min-width: 830px) and (max-width: 840px) {
+    .main-section-skill__container__titulo {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .main-section-skill__container__columns {
+        padding-left: 4%;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+@media screen and (orientation: landscape) and (min-width: 841px) and (max-width: 855px) {
+    .main-section-skill__container__titulo {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .main-section-skill__container__columns {
+        padding-left: 4%;
+        flex-direction: row;
+        gap: 30px;
+    }
+}
+
+@media screen and (orientation: landscape) and (min-width: 880px) and (max-width: 916px) {
+    .main-section-skill__container__titulo {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .main-section-skill__container__columns {
+        padding-left: 6%;
+        flex-direction: row;
+        gap: 30px;
+    }
+}

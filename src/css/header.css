@@ -161,7 +161,6 @@
     }
 }
 
-/* Revisar */
 @media screen and (orientation: portrait) and (min-width: 820px) and (max-width: 1023px) {
     .main-section-header {
         flex-direction: row;
@@ -180,8 +179,7 @@
 }
 
 /* Orientación Landscape (Horizontal) */
-/* iOS - iPhone 4 */
-@media screen and (orientation: landscape) and (max-width: 480px) {
+@media screen and (orientation: landscape) and (min-width: 480px) and (max-width: 780px) {
     .main-section-header {
         flex-direction: column;
     }
@@ -196,66 +194,30 @@
     }
 }
 
-/* iOS */
-/* @media screen and (orientation: landscape) and (min-width: 481px) and (max-width: 570px) {
+@media screen and (orientation: landscape) and (min-width: 800px) and (max-width: 932px) {
     .main-section-header {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .main-section-header__article {
         position: relative;
-        top: 290px;
+        top: 7.5em;
+        right: 3em;
     }
 
     .main-section-header__article__img {
-        width: 200px;
+        width: 240px;
     }
-} */
+}
 
-/* iOS */
-/* @media screen and (orientation: landscape) and (min-width: 650px) and (max-width: 859px) {
+@media screen and (orientation: landscape) and (min-width: 1024px) and (max-width: 1180px) {
     .main-section-header {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .main-section-header__article {
         position: relative;
-        top: 270px;
+        top: 6em;
+        right: 3em;
     }
-
-    .main-section-header__article__img {
-        width: 200px;
-    }
-} */
-
-/* Android */
-/* @media screen and (orientation: landscape) and (min-width: 860px) and (max-width: 870px) {
-    .main-section-header {
-        padding-top: 40%;
-        justify-content: space-between;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-
-    .main-section-header__article {
-        min-width: 0;
-        justify-items: center;
-    }
-
-} */
-
-/* Android */
-/* @media screen and (orientation: landscape) and (min-width: 871px) and (max-width: 920px) {
-    .main-section-header {
-        padding-top: 35%;
-        justify-content: space-between;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-
-    .main-section-header__article {
-        min-width: 0;
-        justify-items: center;
-    }
-
-} */
+}

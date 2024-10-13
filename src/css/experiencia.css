@@ -141,6 +141,10 @@
         justify-content: center;
     }
 
+    .main-section-exp__experiencia__article__icon {
+        left: 50%;
+    }
+
     .main-section-exp__experiencia__article__informacion {
         height: max-content;
     }
@@ -174,6 +178,10 @@
         flex-direction: column;
         margin-top: 90%;
         gap: 50px;
+    }
+
+    .main-section-exp__experiencia__article__icon {
+        left: 49%;
     }
 
     .main-section-exp__article {
@@ -221,6 +229,10 @@
         justify-content: center;
     }
 
+    .main-section-exp__experiencia__article__icon {
+        left: 50%;
+    }
+
     .main-section-exp__experiencia__article__informacion {
         height: max-content
     }
@@ -263,11 +275,12 @@
     }
 
     .main-section-exp__experiencia__article__icon {
-        left: 48%;
+        left: 52%;
     }
 
     .main-section-exp__experiencia__article__informacion {
         height: max-content;
+        margin-left: 5%;
     }
 
     .main-section-exp__experiencia__article__informacion__puesto-Trabajo {
@@ -283,6 +296,7 @@
     }
 }
 
+/* Revisar */
 @media screen and (orientation: portrait) and (min-width: 820px) and (max-width: 1023px) {
     .main-section-exp {
         margin-top: 10%;
@@ -313,6 +327,7 @@
     }
 
     .main-section-exp__experiencia__article__informacion {
+        margin-right: 6%;
         height: max-content;
     }
 
@@ -359,6 +374,7 @@
     }
 
     .main-section-exp__experiencia__article__informacion {
+        margin-right: 5%;
         height: max-content;
     }
 
@@ -376,13 +392,12 @@
 }
 
 /* Orientación Landscape (Horizontal) */
-/* iOS - iPhone 4 */
-@media screen and (orientation: landscape) and (max-width: 480px) {
+@media screen and (orientation: landscape) and (max-width: 568px) {
     .main-section-exp {
-        margin-top: 35%;
+        margin-top: 30%;
         min-height: 750px;
         height: max-content;
-        max-height: 1050px;
+        max-height: 1100px;
     }
 
     .main-section-exp__titulo {
@@ -398,6 +413,48 @@
     }
 
     .main-section-exp__article {
+        width: max-content;
+    }
+
+    .main-section-exp__experiencia__article__informacion {
+        height: max-content;
+    }
+    
+    .main-section-exp__experiencia__article__informacion__puesto-Trabajo {
+        text-wrap: balance;
+    }
+
+    .main-section-exp__experiencia__article__informacion__puesto-Trabajo > h5 {
+        line-height: 20px;
+    }
+
+    .main-section-exp__experiencia__article__informacion__parrafo {
+        text-align: center;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-width: 780px) {
+    .main-section-exp {
+        margin-top: 30%;
+        min-height: 750px;
+        height: max-content;
+        max-height: 1100px;
+    }
+
+    .main-section-exp__titulo {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .main-section-exp__experiencia {
+        flex-direction: column;
+        gap: 50px;
+        max-height: none;
+        align-items: center;
+    }
+
+    .main-section-exp__article {
+        margin-left: 4%;
         width: max-content;
     }
 
@@ -419,13 +476,12 @@
     }
 }
 
-/* iOS */
-/* @media screen and (orientation: landscape) and (min-width: 481px) and (max-width: 570px) {
+@media screen and (orientation: landscape) and (min-width: 800px) and (max-width: 935px) {
     .main-section-exp {
-        margin-top: 35%;
+        margin-top: 0;
         min-height: 750px;
         height: max-content;
-        max-height: 1050px;
+        max-height: 1100px;
     }
 
     .main-section-exp__titulo {
@@ -441,11 +497,13 @@
     }
 
     .main-section-exp__article {
+        margin-left: 2.5%;
         width: max-content;
     }
 
     .main-section-exp__experiencia__article__informacion {
         height: max-content;
+        margin-right: 10%;
     }
     
     .main-section-exp__experiencia__article__informacion__puesto-Trabajo {
@@ -455,15 +513,18 @@
     .main-section-exp__experiencia__article__informacion__puesto-Trabajo > h5 {
         line-height: 20px;
     }
-} */
 
-/* iOS */
-/* @media screen and (orientation: landscape) and (min-width: 660px) and (max-width: 736px) {
+    .main-section-exp__experiencia__article__informacion__parrafo {
+        text-align: center;
+    }
+}
+
+@media screen and (orientation: landscape) and (min-width: 1023px) and (max-width: 1180px) {
     .main-section-exp {
-        margin-top: 25%;
+        margin-top: 0;
         min-height: 750px;
         height: max-content;
-        max-height: 1050px;
+        max-height: 1100px;
     }
 
     .main-section-exp__titulo {
@@ -479,11 +540,13 @@
     }
 
     .main-section-exp__article {
+        margin-left: 2.5%;
         width: max-content;
     }
 
     .main-section-exp__experiencia__article__informacion {
         height: max-content;
+        margin-right: 10%;
     }
     
     .main-section-exp__experiencia__article__informacion__puesto-Trabajo {
@@ -493,52 +556,8 @@
     .main-section-exp__experiencia__article__informacion__puesto-Trabajo > h5 {
         line-height: 20px;
     }
-} */
 
-/* Android - Revisar el Min-width */
-/* @media screen and (orientation: landscape) and (min-width: 860px) and (max-width: 870px) {
-    .main-section-exp {
-        min-height: 750px;
-        max-height: 750px;
+    .main-section-exp__experiencia__article__informacion__parrafo {
+        text-align: center;
     }
-
-    .main-section-exp__titulo {
-        justify-content: center;
-        margin-left: 0;
-    }
-
-    .main-section-exp__experiencia {
-        flex-direction: column;
-        gap: 50px;
-        max-height: none;
-        align-items: center;
-    }
-
-    .main-section-exp__article {
-        width: max-content;
-    }
-} */
-
-/* Android */
-/* @media screen and (orientation: landscape) and (min-width: 871px) and (max-width: 920px) {
-    .main-section-exp {
-        min-height: 750px;
-        max-height: 750px;
-    }
-
-    .main-section-exp__titulo {
-        justify-content: center;
-        margin-left: 0;
-    }
-
-    .main-section-exp__experiencia {
-        flex-direction: column;
-        gap: 50px;
-        max-height: none;
-        align-items: center;
-    }
-
-    .main-section-exp__article {
-        width: max-content;
-    }
-} */
+}

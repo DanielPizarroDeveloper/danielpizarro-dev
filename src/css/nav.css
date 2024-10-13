@@ -178,7 +178,7 @@
     }
 }
 
-/* iOS */
+/* Android - iOS */
 /* iPhone 6/7/8 Plus 736px / Galaxy S22 Ultra - Galaxy S24 */
 @media screen and (orientation: landscape) and (min-width: 669px) and (max-width: 780px) {
     .main-section__nav__list__logo {
@@ -193,7 +193,7 @@
 }
 
 /* Android - iOS */
-/* Galaxy S20 - OPPO Find X3 PRO - Galaxy S24 Ultra - iPhone X - Android - iOS / Pixel 5 - iPhone 14 Pro */
+/* Galaxy S20 - OPPO Find X3 PRO - Galaxy S24 Ultra - iPhone X - Pixel 5 - iPhone 14 Pro */
 @media screen and (orientation: landscape) and (min-width: 800px) and (max-width: 852px) {
     .main-section__nav__list__logo {
         position: relative;
