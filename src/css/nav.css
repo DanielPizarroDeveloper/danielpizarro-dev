@@ -212,7 +212,7 @@
     }
 }
 
-@media screen and (orientation: landscape) and (min-width: 800px) and (max-width: 852px) {
+@media screen and (orientation: landscape) and (min-width: 781px) and (max-width: 852px) {
     .main-section__nav__list__logo {
         position: relative;
         right: 60%;
@@ -224,7 +224,7 @@
     }
 }
 
-@media screen and (orientation: landscape) and (min-width: 880px) and (max-width: 896px) {
+@media screen and (orientation: landscape) and (min-width: 851px) and (max-width: 896px) {
     .main-section__nav__list__logo {
         position: relative;
         right: 70%;
@@ -236,7 +236,7 @@
     }
 }
 
-@media screen and (orientation: landscape) and (min-width: 915px) and (max-width: 930px) {
+@media screen and (orientation: landscape) and (min-width: 897px) and (max-width: 930px) {
     .main-section__nav__list__logo {
         position: relative;
         right: 75%;
