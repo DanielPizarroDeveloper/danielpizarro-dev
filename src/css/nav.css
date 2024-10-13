@@ -260,6 +260,10 @@
         gap: 50px;
     }
 
+    .main-section__nav__list__logo {
+        min-width: 300px;
+    }
+
     .main-section__nav__list__option {
         display: none;
     }
@@ -267,14 +271,14 @@
     .main-section__nav__list__hamburguesa {
         display: block;
     }
-
+    
     .main-section__nav__logo__titulo {
         width: fit-content;
     }
 }
 
 @media screen and (orientation: portrait) and (max-width: 1024px) {
-    .main-section__nav__logo__titulo {
-        width: fit-content;
+    .main-section__nav__list__logo {
+        min-width: 300px;
     }
 }
