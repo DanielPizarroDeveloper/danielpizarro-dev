@@ -164,7 +164,7 @@
     }
 }
 
-@media screen and (orientation: portrait) and (min-width: 361px) {
+@media screen and (orientation: portrait) and (min-width: 361px) and (max-width: 500px) {
     .main-section-aboutMe {
         top: 900px;
         height: min-content;
@@ -218,7 +218,61 @@
     }
 }
 
-/* Revisar los responsive de About Me de todos los modelos de iPhone, para ajustar los tamaños a la diferentes resoluciones */
+@media screen and (orientation: portrait) and (min-width: 760px) and (max-width: 1024px) {
+    .main-section-aboutMe {
+        top: 90px;
+        height: max-content;
+        max-height: max-content;
+    }
+
+    .main-section-aboutMe__titulo {
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .main-section-aboutMe-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .main-section-aboutMe-container > article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-section-aboutMe-container__article {
+        padding: 0;
+        padding-top: 5%;
+    }
+
+    .main-section-aboutMe-container__article__img {
+        align-content: start;
+        padding: 0;
+    }
+
+    .main-section-aboutMe-container__article__container_presentacion {
+        width: fit-content;
+        position: relative;
+        left: 0;
+        right: 0;
+        padding-left: 10%;
+        padding-right: 10%;
+        justify-content: center;
+    }
+
+    .main-section-aboutMe-container__article__container__presentacion_h4 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .main-section-aboutMe-container__article__container__presentacion__parrafo {
+        text-align: center;
+    }
+}
 
 /* Orientación Landscape (Horizontal) */
 @media screen and (orientation: landscape) and (max-width: 480px) {

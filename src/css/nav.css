@@ -135,9 +135,35 @@
     }
 }
 
-/* Orientación Landscape (Horizontal) */
-/* iOS */
-/* iPhone 4 */
+@media screen and (orientation: portrait) and (min-width: 760px) and (max-width: 820px) {
+    .main-section__nav__list {
+        list-style: none;
+        position: relative;
+        padding: 2%;
+        right: 50%;
+    }
+    
+    .main-section__nav__list__hamburguesa {
+        position: relative;
+        left: 95%;
+    }
+}
+
+@media screen and (orientation: portrait) and (min-width: 920px) and (max-width: 1024px) {
+    .main-section__nav__list {
+        list-style: none;
+        position: relative;
+        padding: 2%;
+        right: 85%;
+    }
+    
+    .main-section__nav__list__hamburguesa {
+        position: relative;
+        left: 170%;
+    }
+}
+
+/* Orientación landscape (Horizontal) */
 @media screen and (orientation: landscape) and (max-width: 480px) {
     .main-section__nav__list__logo {
         position: relative;
@@ -150,8 +176,6 @@
     }
 }
 
-/* iOS */
-/* iPhone 5 / iPhone SE 2016 */
 @media screen and (orientation: landscape) and (min-width: 568px) and (max-width: 599px) {
     .main-section__nav__list__logo {
         position: relative;
@@ -164,8 +188,6 @@
     }
 }
 
-/* iOS */
-/* iPhone SE */
 @media screen and (orientation: landscape) and (min-width: 600px) and (max-width: 668px) {
     .main-section__nav__list__logo {
         position: relative;
@@ -178,8 +200,6 @@
     }
 }
 
-/* Android - iOS */
-/* iPhone 6/7/8 Plus 736px / Galaxy S22 Ultra - Galaxy S24 */
 @media screen and (orientation: landscape) and (min-width: 669px) and (max-width: 780px) {
     .main-section__nav__list__logo {
         position: relative;
@@ -192,8 +212,6 @@
     }
 }
 
-/* Android - iOS */
-/* Galaxy S20 - OPPO Find X3 PRO - Galaxy S24 Ultra - iPhone X - Pixel 5 - iPhone 14 Pro */
 @media screen and (orientation: landscape) and (min-width: 800px) and (max-width: 852px) {
     .main-section__nav__list__logo {
         position: relative;
@@ -206,8 +224,6 @@
     }
 }
 
-/* Android - iOS */
-/* Galaxy Z Flip 3 - Galaxy Note 20 Ultra - iPhone XR */
 @media screen and (orientation: landscape) and (min-width: 880px) and (max-width: 896px) {
     .main-section__nav__list__logo {
         position: relative;
@@ -220,8 +236,6 @@
     }
 }
 
-/* Android - iOS */
-/* Oneplus Nord 2 - Pixel 8 - iPhone 14 Plus */
 @media screen and (orientation: landscape) and (min-width: 915px) and (max-width: 930px) {
     .main-section__nav__list__logo {
         position: relative;
