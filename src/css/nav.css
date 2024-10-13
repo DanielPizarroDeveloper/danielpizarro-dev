@@ -266,12 +266,12 @@
 
     .main-section__nav__list__logo {
         min-width: 300px;
-        margin-left: 10%;
+        margin-left: 5%;
     }
     
     .main-section__nav__list__hamburguesa {
         display: block;
-        margin-left: -20%;
+        margin-left: -10%;
     }
     
     .main-section__nav__logo__titulo {
@@ -282,12 +282,12 @@
 @media screen and (orientation: portrait) and (max-width: 1024px) {
     .main-section__nav__list__logo {
         min-width: 300px;
-        margin-left: 10%;
+        margin-left: 5%;
     }
     
     .main-section__nav__list__hamburguesa {
         display: block;
-        margin-left: -20%;
+        margin-left: -10%;
     }
     
     .main-section__nav__list__logo {
