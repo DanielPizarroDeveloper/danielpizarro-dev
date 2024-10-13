@@ -18,7 +18,7 @@
 }
 
 .main-section__nav {
-    width: 100%;
+    width: 100vh;
     display: flex;
     justify-content: center;
     margin-top: .5%;
@@ -274,9 +274,9 @@
         margin-left: -10%;
     }
     
-    .main-section__nav__logo__titulo {
+    /* .main-section__nav__logo__titulo {
         width: fit-content;
-    }
+    } */
 }
 
 @media screen and (orientation: portrait) and (max-width: 1024px) {
@@ -290,7 +290,7 @@
         margin-left: -10%;
     }
     
-    .main-section__nav__list__logo {
+    /* .main-section__nav__list__logo {
         min-width: 250px;
-    }
+    } */
 }
