@@ -24,7 +24,7 @@ export function NavPage() {
 
                     {
                         columnName.map(({id, columna, elementSectionName}) => (
-                            <li key={id} className='main-section__nav__list__option'>
+                            <li key={id} className={`main-section__nav__list__option ${id === 2 ? 'width-spacial' : ''}`} >
                                 <a className='main-section__nav__link' href={elementSectionName}>
                                     <span>{columna}</span>
                                 </a>

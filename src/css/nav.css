@@ -14,7 +14,7 @@
     justify-content: center;
     gap: 50px;
     background-color: var(--custom-nav-color-black);
-    height: 70px;
+    height: 75px;
 }
 
 .main-section__nav {
@@ -25,10 +25,26 @@
 }
 
 .main-section__nav__list {
-    display: flex; 
-    flex-direction: row; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
     align-items: center; 
-    gap: 50px;
+    gap: 30px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.main-section__nav__list__logo {
+    min-width: 205px;
+}
+
+.main-section__nav__list__option {
+    min-width: 96px;
+    flex-basis: 10%;
+}
+
+.width-spacial {
+    min-width: 195px;
 }
 
 .main-section__nav__button--active {
@@ -36,6 +52,7 @@
     border: 0; 
     background-color: transparent;
     align-items: center;
+    min-width: 205px;
 }
 
 .main-section__nav__link--active {
@@ -69,7 +86,7 @@
     display: none;
 }
 
-/* Orientación Portrait (Vertical) */
+/* Orientación Portrait (Vertical)
 @media screen and (orientation: portrait) and (max-width: 320px) {
     .main-section__nav__list {
         list-style: none;
@@ -110,7 +127,7 @@
     }
 }
 
-@media screen and (orientation: portrait) and (min-width: 375px) {
+@media screen and (orientation: portrait) and (min-width: 360px) and (max-width: 375px) {
     .main-section__nav__list {
         list-style: none;
         position: relative;
@@ -127,7 +144,7 @@
     }
 }
 
-@media screen and (orientation: portrait) and (min-width: 420px) {
+@media screen and (orientation: portrait) and (min-width: 375px) and (max-width: 420px) {
     .main-section__nav__list {
         list-style: none;
         position: relative;
@@ -167,9 +184,9 @@
         position: relative;
         left: 170%;
     }
-}
+} */
 
-/* Orientación landscape (Horizontal) */
+/* Orientación landscape (Horizontal)
 @media screen and (orientation: landscape) and (max-width: 480px) {
     .main-section__nav__list__logo {
         position: relative;
@@ -252,18 +269,31 @@
         position: relative;
         left: 65%;
     }
-}
+} */
 
 /* Nav Hamburguesa */
-@media screen and (orientation: landscape) and (max-width: 930px) {
+@media screen and (max-width: 722px) {
+    .main-section__nav {
+        width: 100%;
+    }
+    
     .main-section__nav__list {
-        gap: 50px;
+        width: 100%;
+        justify-content: space-between;
     }
 
     .main-section__nav__list__option {
         display: none;
     }
+    
+    .main-section__nav__list__hamburguesa {
+        display: block;
+        width: 35px;
+        padding-right: 15%;
+    }
+}
 
+/* @media screen and (orientation: portrait) and (max-width: 1024px) {
     .main-section__nav__list__logo {
         min-width: 300px;
         margin-left: 5%;
@@ -273,16 +303,4 @@
         display: block;
         margin-left: -10%;
     }
-}
-
-@media screen and (orientation: portrait) and (max-width: 1024px) {
-    .main-section__nav__list__logo {
-        min-width: 300px;
-        margin-left: 5%;
-    }
-    
-    .main-section__nav__list__hamburguesa {
-        display: block;
-        margin-left: -10%;
-    }
-}
+} */

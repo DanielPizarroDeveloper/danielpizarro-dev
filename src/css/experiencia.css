@@ -12,15 +12,13 @@
     padding-top: 5%;
     padding-bottom: 2%;
     background-color: var(--custom-exp-color-gray);
-    height: 520px;
-    max-height: 550px;
+    max-height: max-content;
     width: 100%;
 }
 
 .main-section-exp__titulo {
     display: flex;
-    justify-content: start;
-    margin-left: 10%;
+    justify-content: center;
     align-items: baseline;
 }
 
@@ -30,25 +28,25 @@
 }
 
 .main-section-exp__experiencia {
-    position: relative;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    gap: 50px;
-    max-height: 344px;
+    max-height: max-content;
+    flex-basis: 50%;
 }
 
 .main-section-exp__article {
     display: flex;
     padding-top: 3%;
-    max-width: 100%;
+    padding-right: 3%;
 }
 
 .main-section-exp__experiencia__article__icon {
     background-color: var(--custom-exp-color-gray);
     position: relative;
     top: -25px;
-    left: 45%;
+    left: 50%;
     border: 1px solid var(--custom-exp-color-black);
     width: 50px;
     min-width: 50px;
@@ -83,6 +81,7 @@
     text-align: left;
 }
 
+/*
 @media screen and (min-width: 1280px) and (max-width: 1720px) {
     .main-section-exp {
         margin-top: 2%;
@@ -108,9 +107,9 @@
     .main-section-exp__experiencia__article__icon {
         left: 330px;
     }
-}
+}  */
 
-/* Orientación Portrait (Vertical) */
+/* Orientación Portrait (Vertical)
 @media screen and (orientation: portrait) and (max-width: 320px) {
     .main-section-exp {
         margin-top: 70% !important;
@@ -296,7 +295,6 @@
     }
 }
 
-/* Revisar */
 @media screen and (orientation: portrait) and (min-width: 820px) and (max-width: 1023px) {
     .main-section-exp {
         margin-top: 10%;
@@ -389,9 +387,9 @@
     .main-section-exp__experiencia__article__informacion__parrafo {
         text-align: center;
     }
-}
+} */
 
-/* Orientación Landscape (Horizontal) */
+/* Orientación Landscape (Horizontal)
 @media screen and (orientation: landscape) and (max-width: 568px) {
     .main-section-exp {
         margin-top: 30%;
@@ -560,4 +558,4 @@
     .main-section-exp__experiencia__article__informacion__parrafo {
         text-align: center;
     }
-}
+} */
