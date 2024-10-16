@@ -12,7 +12,7 @@ function App() {
       <NavPage />
       <HeaderPage />
       <Experiencia />
-      <Skills />
+      {/* <Skills /> */}
       <AboutMe />
     </>
   )

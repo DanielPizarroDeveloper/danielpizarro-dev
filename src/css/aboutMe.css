@@ -6,7 +6,7 @@
 .main-section-aboutMe {
     position: relative;
     top: 130px;
-    margin-bottom: 120px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     background-color: var(--custom-aboutMe-color-gray);
@@ -51,7 +51,9 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    width: 700px;
+    padding: 5%;
+    min-width: auto;
+    max-width: 700px;
 }
 
 .main-section-aboutMe-container__article__container_presentacion__h4 {
@@ -63,4 +65,11 @@
     font-size: small;
     text-align: left; 
     text-wrap: balance;
+}
+
+@media screen and (max-width: 999.2px) {
+    .main-section-aboutMe-container__article__container_presentacion,
+    .main-section-aboutMe-container__article__container__presentacion__parrafo {
+        text-align: center;
+    }
 }
