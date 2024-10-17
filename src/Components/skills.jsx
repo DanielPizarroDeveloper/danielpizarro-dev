@@ -55,7 +55,7 @@ export function Skills() {
                     </div>
                         
                     <div className='main-section-skill__container__columns__skill'>
-                        <h4 className='main-section-skill__container__columns__skill__titulo__div__backend-h4'>Backend</h4>
+                        <h4 className='main-section-skill__container__columns__skill__titulo__div__backend'>Backend</h4>
                         
                         <div className='main-section-skill__container__columns__skill__backend'>
                             {

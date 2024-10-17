@@ -6,10 +6,9 @@
 
 .main-section-skill {
     position: relative;
-    padding-top: 5%;
+    padding-top: 10%;
     display: flex;
     flex-direction: column;
-    height: 560px;
 }
 
 .main-section-skill__container__titulo {
@@ -26,8 +25,10 @@
 .main-section-skill__container__columns {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 30%;
 }
 
 .main-section-skill__container_column_1, 
@@ -174,7 +175,7 @@
 }
 
 .main-section-skill__container__columns__skill__titulo__div__frontend-h4,
-.main-section-skill__container__columns__skill__titulo__div__backend-h4,
+.main-section-skill__container__columns__skill__titulo__div__backend,
 .main-section-skill__container__columns__skill__titulo__div__database-h4 {
     color: var(--custom-skill-color-gray);   
 }
@@ -186,9 +187,83 @@
     height: 40px;
 }
 
-.main-section-skill__container__columns__skill__titulo__div__backend-h4  {
+.main-section-skill__container__columns__skill__titulo__div__backend  {
     position: relative;
     top: -60px;
     left: 35px;
     font-size: 22px;
+}
+
+@media screen and (max-width: 1060px) {
+    .main-section-skill__container__columns {
+        flex-direction: row;
+        padding-right: 5%;
+        gap: 20px;
+    }
+
+    .main-section-skill__container_column_1, 
+    .main-section-skill__container_column_2, 
+    .main-section-skill__container_column_3 {
+        flex-direction: row;
+        padding-top: 2%;
+        height: fit-content;
+        width: 270px;
+        max-width: 270px;
+    }
+
+    .main-section-skill__container__columns__skill__frontend,
+    .main-section-skill__container__columns__skill__backend,
+    .main-section-skill__container__columns__skill__database {
+        flex-direction: column;
+        padding-top: 20%;
+    }
+
+    /* Fronted Skill */
+    .main-section-skill__container__columns__logo {
+        top: -20px;
+        left: 130px;
+    }
+    
+    .main-section-skill__container__columns__skill {
+        width: 210px;
+        height: 360px;
+    }
+
+    .main-section-skill__container__columns__skill__frontend,
+    .main-section-skill__container__columns__skill__backend {
+        gap: 30px;
+        width: fit-content;
+    }
+
+    /* Título - Backend & Frontend */
+    .main-section-skill__container__columns__skill__titulo__div_frontend,
+    .main-section-skill__container__columns__skill__titulo__div__backend {
+        top: -10px;
+        left: 30px;
+    }
+
+    /* Título Database */
+    .main-section-skill__container__columns__skill__titulo__div_database {
+        top: -5px;
+        left: 5px;
+    }
+
+    .main-section-skill__container__columns__skill__database {
+        gap: 60px;
+        justify-content: center;
+    }
+
+    .main-section-skill__container__columns__skill__titulo__div__database-h4 {
+        width: 190px;
+    }
+}
+
+@media screen and (max-width: 588px) {
+    .main-section-skill__container__columns {
+        justify-content: center;
+        padding-top: 5%;
+        padding-right: 5%;
+        /* padding-left: 5%; */
+        /* padding: 0; */
+    }
 }

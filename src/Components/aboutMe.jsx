@@ -12,7 +12,7 @@ export function AboutMe() {
                     <img className='main-section-aboutMe-container__article__img' src="img/Avatar.jpg" alt="imagen de perfil del dueño del porfolio" />
                 </article>
 
-                <article style={{width: 'auto'}}>
+                <article>
                     <div className='main-section-aboutMe-container__article__container_presentacion'>
                         <div className='main-section-aboutMe-container__article__container__presentacion_h4'>
                             <h4>Me presento, me llamo Daniel Pizarro Saavedra</h4>

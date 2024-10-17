@@ -5,8 +5,7 @@
 
 .main-section-aboutMe {
     position: relative;
-    top: 130px;
-    padding-bottom: 50px;
+    top: 60px;
     display: flex;
     flex-direction: column;
     background-color: var(--custom-aboutMe-color-gray);
@@ -71,5 +70,9 @@
     .main-section-aboutMe-container__article__container_presentacion,
     .main-section-aboutMe-container__article__container__presentacion__parrafo {
         text-align: center;
+    }
+
+    .main-section-aboutMe-container {
+        gap: 0;
     }
 }

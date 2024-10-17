@@ -40,3 +40,9 @@ span {
   font-weight: var(--custom-font-weight);
   font-style: var(--custom-font-style);
 }
+
+h1,
+h2,
+h3{
+  font-size: 120%;
+}
