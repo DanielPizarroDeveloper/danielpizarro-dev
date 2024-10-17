@@ -12,14 +12,9 @@ export function Experiencia() {
 
             <div className='main-section-exp__experiencia'>
                 {
-                    experiencia.map(({ id, svg, titulo, posicion, fecha, parrafo1, parrafo2 })=> (
-                        <article className='main-section-exp__article' key={id}>
-                            <div className='main-section-exp__experiencia__article__icon'>
-                                <svg className='main-section-exp__experiencia__article__icon__svg' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                  <path d={svg}/>
-                                </svg>
-                            </div>
-
+                    experiencia.map(({ id, titulo, posicion, fecha, parrafo1, parrafo2 })=> (
+                        // <article className='main-section-exp__article' key={id}></article>
+                        <article key={id} className={`main-section-exp__article ${id == 1 ? 'padding-experiencia-left' : 'padding-experiencia-right'}`}>
                             <div className='main-section-exp__experiencia__article__informacion'>
                                 <div className='main-section-exp__experiencia__article__informacion__puesto-Trabajo'>
                                     <h4>{titulo}</h4>

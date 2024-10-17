@@ -22,6 +22,7 @@ body {
   padding: 0;
 }
 
+
 section, footer {
   min-width: var(--custom-section-min-width);
 }
