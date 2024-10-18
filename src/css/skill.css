@@ -258,12 +258,16 @@
     }
 }
 
+@media screen and (max-width: 722px) {
+    .main-section-skill {
+        padding-top: 20%;
+    }
+}
+
 @media screen and (max-width: 588px) {
     .main-section-skill__container__columns {
         justify-content: center;
         padding-top: 5%;
         padding-right: 5%;
-        /* padding-left: 5%; */
-        /* padding: 0; */
     }
 }

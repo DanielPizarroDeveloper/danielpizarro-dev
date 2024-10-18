@@ -95,3 +95,9 @@
         padding-left: 4%;
     }
 }
+
+@media screen and (max-width: 722px) {
+    .main-section-exp {
+        padding-top: 20%;
+    }
+}

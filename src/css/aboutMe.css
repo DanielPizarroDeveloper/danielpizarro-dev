@@ -76,3 +76,9 @@
         gap: 0;
     }
 }
+
+@media screen and (max-width: 722px) {
+    .main-section-aboutMe {
+        padding-top: 20%;
+    }
+}

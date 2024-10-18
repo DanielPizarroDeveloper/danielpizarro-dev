@@ -13,7 +13,6 @@ export function Experiencia() {
             <div className='main-section-exp__experiencia'>
                 {
                     experiencia.map(({ id, titulo, posicion, fecha, parrafo1, parrafo2 })=> (
-                        // <article className='main-section-exp__article' key={id}></article>
                         <article key={id} className={`main-section-exp__article ${id == 1 ? 'padding-experiencia-left' : 'padding-experiencia-right'}`}>
                             <div className='main-section-exp__experiencia__article__informacion'>
                                 <div className='main-section-exp__experiencia__article__informacion__puesto-Trabajo'>

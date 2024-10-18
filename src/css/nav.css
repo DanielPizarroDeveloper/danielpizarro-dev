@@ -52,6 +52,7 @@
     border: 0; 
     background-color: transparent;
     align-items: center;
+    cursor: pointer;
     min-width: 205px;
 }
 
