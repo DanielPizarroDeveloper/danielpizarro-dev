@@ -11,7 +11,7 @@ export function Skills() {
     const database = databaseList;
 
     return (
-        <section id="programacion" className='main-section-skill'>
+        <section id="programming" className='main-section-skill'>
             <div className='main-section-skill__container__titulo'>
                 <h1 className='main-section-skill__titulo'>Lenguajes Programación</h1>
             </div>
@@ -36,7 +36,7 @@ export function Skills() {
                                         <svg className='main-section-skill__container__columns__skill__content__svg' xmlns="http://www.w3.org/2000/svg" x="10px" y="0px" width="48px" height="48px" viewBox={viewBox} dangerouslySetInnerHTML={{ __html: svgIcon }}></svg>
                                         <div className='main-section-skill__container__columns__skill__content__detalle'>
                                             <span className='main-section-skill__container__columns__skill__content__detalle_span'>{nombre}</span>
-                                            <Badge color={color} width={80}>
+                                            <Badge color={color} width={90}>
                                                 {nivelManejo}
                                             </Badge>
                                         </div>
@@ -65,7 +65,7 @@ export function Skills() {
                                         <svg className='main-section-skill__container__columns__skill__content__backend__svg' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48px" height="48px" viewBox={viewBox} dangerouslySetInnerHTML={{ __html: svgIcon }}></svg>
                                             <div className='main-section-skill__container__columns__skill__content__detalle_backend'>
                                                 <span className='main-section-skill__container__columns__skill__content__detalle_span'>{nombre}</span>
-                                                <Badge color={color} width={80}>
+                                                <Badge color={color} width={90}>
                                                     {nivelManejo}
                                                 </Badge>
                                             </div>
@@ -96,7 +96,7 @@ export function Skills() {
                                         <svg className='main-section-skill__container__columns__skill__content__svg' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48px" height="48px" viewBox="0 0 48 48" dangerouslySetInnerHTML={{ __html: svgIcon }}></svg>
                                         <div className='main-section-skill__container__columns__skill__content__detalle'>
                                             <span className='main-section-skill__container__columns__skill__content__detalle_span'>{nombre}</span>
-                                            <Badge color={color} width={80}>
+                                            <Badge color={color} width={90}>
                                                 {nivelManejo}
                                             </Badge>
                                         </div>

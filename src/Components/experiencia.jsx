@@ -5,9 +5,9 @@ export function Experiencia() {
     const experiencia = experienciaList;
 
     return (
-        <section id="experiencia" className='main-section-exp'>
+        <section id="experience" className='main-section-exp'>
             <div className='main-section-exp__titulo'>
-                <h1 className='main-section-exp__titulo__h1'>Experiencia</h1>
+                <h1 className='main-section-exp__titulo__h1'>Experience</h1>
             </div>
 
             <div className='main-section-exp__experiencia'>

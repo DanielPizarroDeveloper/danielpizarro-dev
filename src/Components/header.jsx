@@ -11,7 +11,7 @@ export function HeaderPage() {
   const listadoCurriculum = Resumen;
 
   const sendMail = () => {
-    window.location.href = 'mailto:Saavedra.Alejandro@outlook.com?subject=Oportunidad laboral – Contacto&body=Hola Daniel, me gustaría hablar contigo sobre una oportunidad laboral...';
+    window.location.href = 'mailto:Saavedra.Alejandro@outlook.com?subject=Job opportunity – Contacto&body=Hello Daniel, I would like to speak with you about a job opportunity....';
   }
 
   return (
@@ -22,14 +22,14 @@ export function HeaderPage() {
 
       <article className='main-section-header__article'>
         <div className='main-section-header__article__personal__information'>
-          <h1>Hola,</h1>
-          <h2>Soy Daniel Pizarro Saavedra</h2>
-          <h3>Ingeniero Informático</h3>
+          <h1>Hello,</h1>
+          <h2>I am Daniel Pizarro Saavedra</h2>
+          <h3>Computer Engineer</h3>
         </div>
             
         <div className='main-section-header__article--badge'>
           <Badge color="green">
-              Abierto a nuevas oportunidades laborales.
+            Open to new job opportunities.
           </Badge>
         </div>
                 
@@ -58,7 +58,7 @@ export function HeaderPage() {
                 <Menu.Divider />
               </Menu>
             }>
-            <button className='main-section-header__article__div--button'>Descargar Curriculum</button>
+            <button className='main-section-header__article__div--button'>Download Resume</button>
           </Popover>
         </div>
 

@@ -1,17 +1,17 @@
 [
     {
         "id": 1,
-        "columna": "Experiencia",
-        "elementSectionName": "#experiencia"
+        "columna": "Experience",
+        "elementSectionName": "#experience"
     },
     {
         "id": 2,
-        "columna": "Lenguajes programación",
-        "elementSectionName": "#programacion"
+        "columna": "Programming languages",
+        "elementSectionName": "#programming"
     },
     {
         "id": 3,
-        "columna": "Sobre mí",
+        "columna": "About me",
         "elementSectionName": "#about"
     }
 ]

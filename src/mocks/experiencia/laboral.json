@@ -1,18 +1,18 @@
 [
     {
         "id": 1,
-        "titulo": "Desarrollador Freelance",
-        "posicion": "Cliente: Ingenieria & Construcción Sigdo Koppers",
-        "fecha": "2023 - Actualmente",
-        "parrafo1": "Actualmente, estoy trabajando en algunos proyectos de automatización RPA con UiPath Studio y C# para la ingenieria & construcción Sigdo Koppers.",
-        "parrafo2": "Con la cual se han implementado algunos proyectos además de realización de soporte de los mismos proyctos."
+        "titulo": "Freelance Developer",
+        "posicion": "Client: Ingeniería & Construcción Sigdo Koppers",
+        "fecha": "2023 - Currently",
+        "parrafo1": "Currently, I am working on some RPA automation projects with UiPath Studio and C# for Ingeniería & Construcción Sigdo Koppers.",
+        "parrafo2": "With which several projects have been implemented, in addition to providing support for these projects."
     },
     {
         "id": 2,
-        "titulo": "Desarrollador & Analista de datos",
-        "posicion": "Ingenieria & Construcción Sigdo Koppers",
-        "fecha": "Enero, 2018 - Abril, 2023",
-        "parrafo1": "He trabajado en el desarrollo de soluciones web para proyectos internos de la empresa utilizando lenguajes como ASP.NET, ASP.NET Core y Azure Functions además de implementaciones de modelos de datos en SQL Server. Además, he desarrollado soluciones de automatización RPA con UiPath Studio.",
-        "parrafo2": "Además, he desarrollado soluciones de automatización RPA con UiPath Studio."
+        "titulo": "Developer & Data Analyst",
+        "posicion": "Ingeniería & Construcción Sigdo Koppers",
+        "fecha": "January, 2018 - April, 2023",
+        "parrafo1": "I have worked on developing web solutions for the company’s internal projects using languages such as ASP.NET, ASP.NET Core, and Azure Functions, as well as implementing data models in SQL Server. Additionally, I have developed RPA automation solutions with UiPath Studio.",
+        "parrafo2": "Additionally, I have developed RPA automation solutions with UiPath Studio."
     }
 ]
