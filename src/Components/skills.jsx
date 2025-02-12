@@ -13,7 +13,7 @@ export function Skills() {
     return (
         <section id="programming" className='main-section-skill'>
             <div className='main-section-skill__container__titulo'>
-                <h1 className='main-section-skill__titulo'>Lenguajes Programación</h1>
+                <h1 className='main-section-skill__titulo'>Programming languages</h1>
             </div>
 
             <div className='main-section-skill__container__columns'>
@@ -86,7 +86,7 @@ export function Skills() {
                         
                     <div className='main-section-skill__container__columns__skill'>
                         <div className='main-section-skill__container__columns__skill__titulo__div_database'>
-                            <h4 className='main-section-skill__container__columns__skill__titulo__div__database-h4'>Base de datos</h4>
+                            <h4 className='main-section-skill__container__columns__skill__titulo__div__database-h4'>Database</h4>
                         </div>
                         
                         <div className='main-section-skill__container__columns__skill__database'>
