@@ -12,7 +12,7 @@ Welcome to my developer portfolio, where I showcase my skills and projects in Fr
 🚀 Technologies
 <pre>
   🎨 Frontend: React JS, JavaScript, CSS, Vite
-  🖥 Backend: ASP.NET Core, C#
+  🖥  Backend: ASP.NET Core, C#
   💾 Database: SQL Server, PL/SQL, Views, Triggers
   🤖 Automation: UiPath (RPA)
 </pre>
