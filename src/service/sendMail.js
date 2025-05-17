@@ -6,11 +6,9 @@ export const ActivateAPI = async(setStatusAPI) => {
     const response = await fetch(MAIL_ENDPOINT_ACTIVATE);
     if(response.status == 200) {
         setStatusAPI(true);
-        console.log('Flag OK');
     }
     else {
         setStatusAPI(false);
-        console.log('Flag Error');
     }
 }
 

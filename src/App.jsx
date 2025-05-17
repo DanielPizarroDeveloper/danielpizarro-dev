@@ -69,7 +69,9 @@ function App() {
   
   //Método que setea el style si el usuario actualiza la página
   const handlerRender = () => {
-    var websiteCurrently = window.location.pathname;
+    // var websiteCurrently = window.location.pathname;
+    var websiteCurrently = window.location.href;
+    console.log(websiteCurrently);
     nav_effect_title(websiteCurrently, setStyleSelectedExperience, setStyleSelectedProject, setStyleSelectedSkill, setStyleSelectedAboutMe, setStyleSelectedContact, setStyleSelectedHome);
   }
 
