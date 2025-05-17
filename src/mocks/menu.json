@@ -1,0 +1,61 @@
+{
+    "id": 1,
+    "translations": [
+        {
+            "lang": "ES",
+            "titles": {
+                "Index": "INICIO",
+                "Experience": "EXPERIENCIA",
+                "Project": "PROYECTO",
+                "Skill": "HABILIDADES",
+                "AboutMe": "SOBRE MI",
+                "Contact": "CONTACTO"
+            },
+            "option" : {
+                "language": "Traduciar al Inglés"
+            },
+            "mode": [
+                {
+                    "theme": "dark",
+                    "optionUI": {
+                        "message": "Cambiar a tema claro"
+                    }
+                },
+                {
+                    "theme": "light",
+                    "optionUI": {
+                        "message": "Cambiar a tema oscuro"
+                    }
+                }
+            ]
+        },
+        {
+            "lang": "EN",
+            "titles": {
+                "Index": "HOME",
+                "Experience": "EXPERIENCE",
+                "Project": "PROJECT",
+                "Skill": "SKILL",
+                "AboutMe": "ABOUT ME",
+                "Contact": "CONTACT"
+            },
+            "option" : {
+                "language": "Translate to Spanish"
+            },
+            "mode": [
+                {
+                    "theme": "dark",
+                    "optionUI": {
+                        "message": "Change to light theme"
+                    }
+                },
+                {
+                    "theme": "light",
+                    "optionUI": {
+                        "message": "Change to dark theme"
+                    }
+                }
+            ]
+        }
+    ]
+}

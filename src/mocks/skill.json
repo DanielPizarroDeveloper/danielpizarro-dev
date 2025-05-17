@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "translations": [
+            {
+                "lang": "ES",
+                "webiste": {
+                    "webTitle": "LENGUAJES"
+                }
+            },
+            {
+                "lang": "EN",
+                "webiste": {
+                    "webTitle": "SKILL"
+                }
+            }
+        ]
+    }
+]

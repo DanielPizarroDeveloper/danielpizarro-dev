@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "pathImage": "img/ImagenUser.webp",
+        "translations": 
+        [
+            {
+                "lang": "ES",
+                "webiste": {
+                    "webTitle": "SOBRE MI"
+                },
+                "paragraph": [
+                    {
+                        "parrafo": "Hola, mi nombre es Daniel Pizarro Saavedra. Estoy entusiasmado de presentarme y compartir un poco sobre quién soy"
+                    },    
+                    {
+                        "parrafo": "Soy Ingeniero Informático con más de 5 años de experiencia en desarrollo Backend y automatización de procesos."
+                    },
+                    {
+                        "parrafo": "Me especializo en implementar soluciones personalizadas mediante RPA utilizando UiPath Studio. Mi enfoque es aportar eficiencia y optimización a las empresas a través de la automatización, integrando modelos de datos robustos con SQL Server."
+                    },
+                    {
+                        "parrafo": "A lo largo de mi carrera, he liderado proyectos de automatización que han simplificado procesos críticos en diversas áreas de negocio, generando un ahorro significativo de tiempo y recursos. Actualmente, trabajo como desarrollador RPA freelance para empresas en Chile, donde continúo entregando soluciones innovadoras."
+                    },
+                    {
+                        "parrafo": "Soy autodidacta y apasionado por aprender nuevas herramientas y lenguajes, lo que me ha permitido desarrollar una carrera versátil. Estoy comprometido con seguir creciendo como profesional y contribuir al éxito de las empresas con las que colaboro."
+                    }
+                ],
+                "titleButton": "DESCARGA MI CURRICULUM",
+                "pathResume": "document/ES - Daniel Pizarro Saavedra.pdf"
+            },
+            {
+                "lang": "EN",
+                "webiste": {
+                    "webTitle": "ABOUT ME"
+                },
+                "paragraph": [
+                    {
+                        "parrafo": "Hello, my name is Daniel Pizarro Saavedra. I'm excited to introduce myself and share a bit about who I am."
+                    },    
+                    {
+                        "parrafo": "I am a Computer Engineer with over 5 years of experience in Backend development and process automation."
+                    },
+                    {
+                        "parrafo": "I specialize in implementing customized solutions through RPA using UiPath Studio. My focus is to bring efficiency and optimization to companies through automation, integrating robust data models with SQL Server."
+                    },
+                    {
+                        "parrafo": "Throughout my career, I have led automation projects that have streamlined critical business processes, generating significant savings in time and resources. Currently, I work as a freelance RPA developer for companies in Chile, where I continue to deliver innovative solutions."
+                    },
+                    {
+                        "parrafo": "I am self-taught and passionate about learning new tools and programming languages, which has allowed me to build a versatile career. I am committed to continuing my professional growth and contributing to the success of the companies I collaborate with."
+                    }
+                ],
+                "titleButton": "DOWNLOAD MY RESUME",
+                "pathResume": "document/EN - Daniel Pizarro Saavedra.pdf"
+            }
+        ]
+    }
+]

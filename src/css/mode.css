@@ -1,0 +1,115 @@
+.display-none {
+    display: block;
+}
+
+.display-block {
+    display: none;
+}
+
+.display-none-important {
+    display: block !important;
+}
+
+.display-block-important {
+    display: none !important;
+}
+
+/* Background App*/
+.background-dark {
+    background-color: var(--background-dark-mode);
+}
+
+.background-light {
+  background-color: var(--background-light-mode);
+}
+  
+
+/* Background */
+.background-dark-mode {
+    background-color: var(--primary-dark-mode-color);
+}
+
+.background-light-mode {
+    background-color: var(--primary-light-mode-color);
+}
+
+/* Color */
+.color-dark-mode {
+    color: var(--primary-dark-mode-color);
+}
+
+.color-light-mode {
+    color: var(--primary-light-mode-color);
+}
+
+/* Button */
+.button-dark-mode {
+  background-color: var(--second-dark-mode-color);
+  color: var(--primary-dark-mode-color);
+}
+  
+.button-light-mode {
+  background-color: var(--second-light-mode-color);
+  color: var(--primary-light-mode-color);
+}
+
+/* Fill SVG */
+.fill-dark-mode {
+    fill: var(--primary-dark-mode-color);
+}
+
+.fill-light-mode {
+    fill: var(--primary-light-mode-color);
+}
+
+/* Input */
+.input-dark-mode {
+    background-color: var(--primary-dark-mode-color);
+    color: var(--primary-light-mode-color) !important;
+}
+
+.input-light-mode {
+    background-color: var(--primary-light-mode-color);
+    color: var(--primary-dark-mode-color) !important;
+}
+
+/* Placeholder */
+.input-dark-mode::placeholder {
+    color: var(--primary-light-mode-color);
+}
+
+.input-light-mode::placeholder {
+    color: var(--primary-dark-mode-color);
+}
+
+/* Container */
+.container-dark-mode {
+    background-color: var(--background-dark-mode);
+    border: 1px solid var(--primary-dark-mode-color);
+    color: var(--primary-dark-mode-color);
+}
+
+.container-light-mode {
+    background-color: var(--background-light-mode);
+    border: 1px solid var(--primary-light-mode-color);
+    color: var(--primary-light-mode-color);
+}
+
+/* Hover */
+.hover-dark-mode:hover {
+    color: var(--second-dark-mode-color);
+    background-color: var(--primary-dark-mode-color);
+}
+
+.hover-dark-mode:hover > .tool-github {
+    fill: var(--second-dark-mode-color) !important;
+}
+
+.hover-light-mode:hover {
+    color: var(--second-light-mode-color);
+    background-color: var(--primary-light-mode-color);
+}
+
+.hover-light-mode:hover > .tool-github {
+    fill: var(--second-light-mode-color) !important;
+}

@@ -1,0 +1,21 @@
+{
+    "id": 1,
+    "image": "img/ImagenUser.webp",
+    "title": "DANIEL PIZARRO SAAVEDRA",
+    "translations": [
+        {
+            "lang": "ES",
+            "content": {
+                "Position": "Desarrollador de Software - Desarrollador Web - RPA",
+                "seekJob": "Abierto a nuevas oportunidades de trabajo"
+            }
+        },
+        {
+            "lang": "EN",
+            "content": {
+                "Position": "Software Developer - Web Developer - RPA",
+                "seekJob": "Open to new job opportunities"
+            }
+        }
+    ]
+}

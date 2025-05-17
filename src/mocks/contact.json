@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "translations": [
+            {
+                "lang": "ES",
+                "webiste": {
+                    "webTitle": "CONTACTO"
+                },
+                "content": {
+                    "title": "¿TIENES ALGUNA CONSULTA?",
+                    "subTitle": "DEJAME UN MENSAJE",
+                    "placeholder": "Escribe tú comentario aquí",
+                    "textButton": "ENVIAR"
+                },
+                "notification": {
+                    "successTitleNotification": "🎉 Correo enviado",
+                    "successTextNotificacion": "Se ha enviado una notificación a Daniel",
+                    "warningTitleNotification": "⚠️ Ocurrió un error",
+                    "warningTextNotificacion": "Por favor, intentalo más tarde"
+                },
+                "validation": {
+                    "titleValidation": "⚠️ Campos incompletos",
+                    "textValidation": "Completa todos los campos antes de enviar."
+                }
+            },
+            {
+                "lang": "EN",
+                "webiste": {
+                    "webTitle": "CONTACT"
+                },
+                "content": {
+                    "title": "DO YOU HAVE ANY QUESTIONS?",
+                    "subTitle": "LEAVE ME A MESSAGE",
+                    "placeholder": "Write your comment here",
+                    "textButton": "SEND"
+                },
+                "notification": {
+                    "successTitleNotification": "🎉 Email sent",
+                    "successTextNotificacion": "A notification has been sent to Daniel.",
+                    "warningTitleNotification": "⚠️ An error occurred",
+                    "warningTextNotificacion": "Sorry, please try again later."
+                },
+                "validation": {
+                    "titleValidation": "⚠️ Incomplete Fields",
+                    "textValidation": "Please fill in all fields before submitting."
+                }
+            }
+        ]
+    }
+]

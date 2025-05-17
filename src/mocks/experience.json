@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "translations": [
+            {
+                "lang": "ES",
+                "webiste": {
+                    "webTitle": "EXPERIENCIA"
+                },
+                "content": {
+                    "title": "DESARROLLADOR FREELANCE",
+                    "position": "INGENIERÍA & CONSTRUCCIÓN SIGDO KOPPERS",
+                    "date": "JUNIO, 2023 - SEPTIEMBRE, 2024",
+                    "detail": "Trabajé en varios proyectos de automatización RPA utilizando UiPath Studio y C# para Ingeniería & Construcción Sigdo Koppers, a través de los cuales se implementaron múltiples proyectos, además de brindar soporte continuo para los mismos.",
+                    "secondTitle": "Herramientas"
+                }
+            },
+            {
+                "lang": "EN",
+                "webiste": {
+                    "webTitle": "EXPERIENCE"
+                },
+                "content": {
+                    "title": "FREELANCE DEVELOPER",
+                    "position": "INGENIERÍA & CONSTRUCCIÓN SIGDO KOPPERS",
+                    "date": "JUNE 2023 – SEPTEMBER 2024",
+                    "detail": "Worked on several RPA automation projects using UiPath Studio and C# for Ingeniería & Construcción Sigdo Koppers, implementing multiple solutions and providing ongoing support for them.",
+                    "secondTitle": "Tools"
+                }
+            }
+        ],
+        "tools": [
+            {
+                "name": "UiPath"
+            },
+            {
+                "name": "C#"
+            },
+            {
+                "name": "SQL Server"
+            },
+            {
+                "name": "MS Aplications"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "translations": [
+            {
+                "lang": "ES",
+                "webiste": {
+                    "webTitle": "EXPERIENCIA"
+                },
+                "content": {
+                    "title": "DESARROLLADOR Y ANALISTA DE DATOS",
+                    "position": "INGENIERÍA & CONSTRUCCIÓN SIGDO KOPPERS",
+                    "date": "ENERO, 2023 - ABRIL, 2023",
+                    "detail": "Desarrollé soluciones web internas utilizando ASP.NET, ASP.NET Core y Azure Functions. Implementé modelos de datos en SQL Server, gestionando las bases de datos de cada proyecto. Además, automatizé procesos clave con UiPath Studio, creando Bots que optimizaron el tiempo y recursos del equipo.",
+                    "secondTitle": "Herramientas"
+                }
+            },
+            {
+                "lang": "EN",
+                "webiste": {
+                    "webTitle": "EXPERIENCE"
+                },
+                "content": {
+                    "title": "DEVELOPER AND DATA ANALYST",
+                    "position": "INGENIERÍA & CONSTRUCCIÓN SIGDO KOPPERS",
+                    "date": "JANUARY 2023 – APRIL 2023",
+                    "detail": "Developed internal web solutions using ASP.NET, ASP.NET Core, and Azure Functions. Implemented data models in SQL Server, managing project databases. Additionally, automated key processes with UiPath Studio by creating bots that optimized the team's time and resources.",
+                    "secondTitle": "Tools"
+                }
+            }
+        ],
+        "tools": [
+            {
+                "name": "UiPath"
+            },
+            {
+                "name": "C#"
+            },
+            {
+                "name": ".NET Core"
+            },
+            {
+                "name": "SQL Server"
+            }
+        ]
+    }
+]
