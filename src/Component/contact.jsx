@@ -21,7 +21,6 @@ const Contact = ({ UIMode, LangMode, visibleContent }) => {
     const validationData = LangSelected_Contact_Validation(LangMode);
 
     useEffect(() => {
-        console.log(displayName, mail, body);
     }, [displayName, mail, body]);
 
 
