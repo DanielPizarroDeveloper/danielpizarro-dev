@@ -1,8 +1,33 @@
-# React JS + Vite
+# Daniel Pizarro Saavedra – Developer Portfolio 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my developer portfolio, where I showcase my skills and projects in Frontend, Backend, and Database development. With experience in React JS, ASP.NET Core, and SQL Server, I build dynamic and scalable web applications.
 
-Currently, two official plugins are available:
+✨ About Me
+<pre>
+  💻 Full Stack Developer with a focus on Frontend (React JS) and Backend (ASP.NET Core, C#).
+  📊 Experience in SQL Server, database modeling, and query optimization.
+  ⚡ Passionate about automation and process optimization using RPA (UiPath).
+</pre>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Technologies
+<pre>
+  🎨 Frontend: React JS, JavaScript, CSS, Vite
+  🖥  Backend: ASP.NET Core, C#
+  💾 Database: SQL Server, PL/SQL, Views, Triggers
+  🤖 Automation: UiPath (RPA)
+</pre>
+
+📂 Featured Projects
+<pre>
+  📋 TaskFlow – A task management app with drag-and-drop and real-time sync (React + Firebase).
+  🤖 RPA Solutions – Automated processes for business efficiency using UiPath and C#.
+  🌐 Web Applications – Development of internal tools with ASP.NET Core and SQL Server.
+</pre>
+
+📢 Get in Touch
+
+<pre>
+  Feel free to explore my projects and connect with me! 🚀
+
+  📌 Developed by Daniel Pizarro Saavedra
+</pre>
