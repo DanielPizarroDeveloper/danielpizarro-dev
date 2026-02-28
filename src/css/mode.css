@@ -35,10 +35,12 @@
 
 /* Color */
 .color-dark-mode {
+    background-color: transparent;
     color: var(--primary-dark-mode-color);
 }
 
 .color-light-mode {
+    background-color: transparent;
     color: var(--primary-light-mode-color);
 }
 

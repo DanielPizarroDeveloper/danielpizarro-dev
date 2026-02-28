@@ -79,9 +79,3 @@ li {
         display: none;
     }
 }
-/* 
-@media screen and (orientation: landscape) and (max-width: 650px) {
-    nav {
-        display: none;
-    }
-} */
